@@ -67,8 +67,8 @@ Idea 5:
 *   Friday 1/15: Functioning grid (without music)
 *   Midterms 1/22: Sound implemented into interactable grid
 *   Friday 1/29: Saving sounds into a database as a user completed(as a project you can re-open)
-*   Friday 2/5: 
-*   Friday 2/12: Other instruments' sounds implemented and savable
+*   Friday 2/5: ^ Continuing on this, as it may be a large task
+*   Friday 2/12: Other instruments' sounds implemented and saveable
 *   Friday 2/19: The fundamental parts of the website have all been completed and the website is functioning
 *   Friday 2/26:  Finish port forwarding/raspberry pi, finish implementation of http
 *   Friday 3/5: Fix up looks of the website, make sure everything is accessible and aesthetically pleasing
@@ -91,7 +91,7 @@ Idea 5:
     *   Replayable Music From Grid (saved by logging in)
 
 
- <b>Changelog</b><br />
+ <b>Changelog (testing for actual changes later)</b><br />
 Kira  | Kaila | Tyler | Dylan
 ------------- | ------------- | ------------- | -------------
-  | | | |
+Updated READme  | | Added view.py | |
