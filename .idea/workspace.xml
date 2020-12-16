@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,35 +64,43 @@
       <option name="project" value="LOCAL" />
       <updated>1607968016067</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="import pythondb plus more">
+      <created>1607968447707</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607968447707</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="View.py file added" />
     <MESSAGE value="templates directory added" />
     <MESSAGE value="import pythondb" />
-    <option name="LAST_COMMIT_MESSAGE" value="import pythondb" />
+    <MESSAGE value="import pythondb plus more" />
+    <option name="LAST_COMMIT_MESSAGE" value="import pythondb plus more" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="114" key="#Project_Structure" timestamp="1607967417488">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="#Project_Structure/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967417488" />
-    <state x="2507" y="108" key="CommitChangelistDialog2" timestamp="1607968015517">
+    <state x="2507" y="108" key="CommitChangelistDialog2" timestamp="1607968447161">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="587" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967329518" />
-    <state x="2507" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1607968015517" />
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1607968017497">
+    <state x="2507" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1607968447161" />
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1607968451112">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967334857" />
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1607968017496" />
-    <state x="2697" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607968431096">
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1607968451112" />
+    <state x="2697" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608140484910">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607966933394" />
-    <state x="2697" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1607968431096" />
+    <state x="2697" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608140484910" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
