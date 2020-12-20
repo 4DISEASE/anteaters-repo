@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>base</title>
+    <!-- initialize bootstrap -->
+    <link rel="stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity = "sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin = "anonymous">
+    <!-- style -->
+    <style>
+
+    </style>
 </head>
 <body>
-
+    <nav class = "navbar navbar-expand navbar-dark bg-dark">
+        <!-- homepage -->
+        <a href = "/" class = "navbar-brand">AE Music Maker</a>
+        <!-- other pages -->
+        <ul class = "navbar.content navbar-nav mr-auto">
+            <!-- music grid -->
+            <li class = "nav-item">
+                <a href = "/music-maker" class = "nav-link">Music Maker</a>
+            </li>
+            <!-- playlists -->
+            <li class = "nav-item">
+                <a href = "#" class = "nav-link">Playlists</a>
+            </li>
+            <!-- login -->
+            <li class = "nav-item">
+                <a href = "/login" class = "nav-link">Login/Register</a>
+            </li>
+        </ul>
+    </nav>
 {% block content %}{% endblock %}
 </body>
 </html>
