@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="created navigation bar&#10;called navigation bar to all other files&#10;created database&#10;created &quot;USER&quot; class for database&#10;created models.py for database models in future">
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/templates/grid.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -168,57 +175,6 @@
     <MESSAGE value="Added home.html, base.html, and musicgrid.html&#10;Created app routes for html files&#10;Created content blocks for future use" />
     <MESSAGE value="created navigation bar&#10;called navigation bar to all other files&#10;created database&#10;created &quot;USER&quot; class for database&#10;created models.py for database models in future" />
     <option name="LAST_COMMIT_MESSAGE" value="created navigation bar&#10;called navigation bar to all other files&#10;created database&#10;created &quot;USER&quot; class for database&#10;created models.py for database models in future" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="440" y="114" key="#Project_Structure" timestamp="1607967417488">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="440" y="114" key="#Project_Structure/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967417488" />
-    <state x="354" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608459992359">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="354" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.777@0.23.1280.777" timestamp="1608459992359" />
-    <state x="328" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1608457701357">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="328" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.777@0.23.1280.777" timestamp="1608457701357" />
-    <state x="2507" y="108" key="CommitChangelistDialog2" timestamp="1608226270222">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="587" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967329518" />
-    <state x="2507" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608226270222" />
-    <state width="1238" height="198" key="GridCell.Tab.0.bottom" timestamp="1608460849733">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1608460849733" />
-    <state width="1238" height="198" key="GridCell.Tab.0.center" timestamp="1608460849732">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1608460849732" />
-    <state width="1238" height="198" key="GridCell.Tab.0.left" timestamp="1608460849731">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1608460849731" />
-    <state width="1238" height="198" key="GridCell.Tab.0.right" timestamp="1608460849732">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1608460849732" />
-    <state x="128" y="23" key="SettingsEditor" timestamp="1608459041067">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="128" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1608459041067" />
-    <state x="368" y="219" key="Vcs.Push.Dialog.v2" timestamp="1608460864969">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967334857" />
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608226272002" />
-    <state x="368" y="219" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1608460864969" />
-    <state x="518" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609780438111">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607966933394" />
-    <state x="2697" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608140484910" />
-    <state x="518" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1609780438111" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
