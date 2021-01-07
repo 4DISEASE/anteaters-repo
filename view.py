@@ -1,7 +1,7 @@
 #imports
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
-from models import USER
+#from models import USER
 
 #create flask
 app = Flask(__name__, static_url_path = "", static_folder = "static")
