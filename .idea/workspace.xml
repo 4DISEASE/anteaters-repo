@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="Added home.html, base.html, and musicgrid.html&#10;Created app routes for html files&#10;Created content blocks for future use">
-      <change afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account.html" afterDir="false" />
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/musicgrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/musicgrid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
     </list>
@@ -185,36 +181,40 @@
     </state>
     <state x="587" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967329518" />
     <state x="2507" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608226270222" />
-    <state width="1238" height="198" key="GridCell.Tab.0.bottom" timestamp="1608460636644">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1610082706136">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1610082706136" />
     <state width="1238" height="198" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1608460636644" />
-    <state width="1238" height="198" key="GridCell.Tab.0.center" timestamp="1608460636643">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1610082706136">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1610082706136" />
     <state width="1238" height="198" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1608460636643" />
-    <state width="1238" height="198" key="GridCell.Tab.0.left" timestamp="1608460636642">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1610082706135">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1610082706135" />
     <state width="1238" height="198" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1608460636642" />
-    <state width="1238" height="198" key="GridCell.Tab.0.right" timestamp="1608460636643">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1610082706136">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1610082706136" />
     <state width="1238" height="198" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1608460636643" />
     <state x="128" y="23" key="SettingsEditor" timestamp="1608459041067">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="128" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1608459041067" />
-    <state x="368" y="219" key="Vcs.Push.Dialog.v2" timestamp="1608228744237">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1610081931228">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967334857" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1610081931228" />
     <state x="2472" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608226272002" />
     <state x="368" y="219" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1608228744237" />
-    <state x="518" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608439710902">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610081869561">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607966933394" />
+    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1610081869561" />
     <state x="2697" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608140484910" />
     <state x="518" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1608439710902" />
   </component>

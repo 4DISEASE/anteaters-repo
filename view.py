@@ -16,9 +16,6 @@ def __repr__(self):
 
 #app routes
 ##temp
-@app.route ("/grid")
-def grid():
-    return render_template('grid.html')
 
 ##home
 @app.route ("/")
