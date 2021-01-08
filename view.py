@@ -1,11 +1,13 @@
 #imports
 from flask import Flask, render_template, redirect, url_for, request, session, flash
 from flask_sqlalchemy import SQLAlchemy
+from datetime import timedelta
 #from models import USER
 
 #create flask
 app = Flask(__name__, static_url_path = "", static_folder = "static")
 app.secret_key = "hello"
+app.permanent_session_lifetime = timedelta(days = 7)
 
 #database config
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
@@ -20,12 +22,19 @@ def __repr__(self):
 ##home
 @app.route ("/")
 def home():
-    return render_template('home.html')
-
+    if "user" in session:
+        user = session["user"]
+        return render_template('home.html', user = user)
+    else:
+        return render_template('home.html')
 ##music grid
 @app.route ("/music-maker")
 def musicgrid():
-    return render_template('musicgrid.html')
+    if "user" in session:
+        user = session["user"]
+        return render_template('musicgrid.html', user=user)
+    else:
+        return render_template('musicgrid.html')
 
 @app.route ("/login")
 def login():
@@ -34,6 +43,7 @@ def login():
 @app.route("/logintwo", methods=["POST", "GET"])
 def logintwo():
     if request.method == "POST":
+        session.permanent = True
         user = request.form["nm"]
         session["user"] = user
         flash("You have been logged in")
@@ -59,7 +69,7 @@ def user():
             if "email" in session:
                 email = session["email"]
 
-        return render_template("user.html", email=email)
+        return render_template("user.html", email=email, user = user)
     else:
         flash("You are not logged in!")
         return redirect(url_for("logintwo"))
