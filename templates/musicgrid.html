@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +6,100 @@
     <title>Music Maker</title>
     <!-- initialize bootstrap -->
     <link rel="stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity = "sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin = "anonymous">
+<style>
+
+{
+margin:0;
+padding:0;
+}
+
+
+.wrapper {
+margin-left:20%;
+margin-top:2em;
+  display:block;
+}
+
+ul {
+list-style:none;
+display:inline-block;
+}
+
+.dot{
+width:2em;
+height:2em;
+margin:5px;
+background:#DCDCDC;
+border-radius:50%;
+  cursor:pointer;
+
+}
+.dot2{
+width:2em;
+height:2em;
+margin:5px;
+background:#DCDCDC;
+border-radius:50%;
+  cursor:pointer;
+  }
+
+.dot3{
+width:2em;
+height:2em;
+margin:5px;
+background:#DCDCDC;
+border-radius:50%;
+  cursor:pointer;
+  }
+
+.dot4{
+width:2em;
+height:2em;
+margin:5px;
+background:#DCDCDC;
+border-radius:50%;
+  cursor:pointer;
+  }
+
+.dot5{
+width:2em;
+height:2em;
+margin:5px;
+background:#DCDCDC;
+border-radius:50%;
+  cursor:pointer;
+  }
+
+.dot6{
+width:2em;
+height:2em;
+margin:5px;
+background:#DCDCDC;
+border-radius:50%;
+  cursor:pointer;
+  }
+
+.dot7{
+width:2em;
+height:2em;
+margin:5px;
+background:#DCDCDC;
+border-radius:50%;
+  cursor:pointer;
+  }
+
+.quadrado {
+background:#000;
+border-radius:0%;
+
+}
+body{
+  background:#fff;
+
+    </style>
 </head>
 <body>
+
 <!-- extends menu bar -->
 {% extends "base.html" %}
 
@@ -14,5 +107,147 @@
 {% block content %}
 
 {% endblock %}
+<script>
+        function ColorBlue() {
+            var c = document.getElementsByClassName("dot");
+            for (var i=0; i<c.length; i++) {
+                c[i].style.backgroundColor = "blue";
+            }
+        }
+        function ColorRed() {
+            var c = document.getElementsByClassName("dot2");
+            for (var i=0; i<c.length; i++) {
+                c[i].style.backgroundColor = "red";
+            }
+        }
+        function ColorGreen() {
+            var c = document.getElementsByClassName("dot3");
+            for (var i=0; i<c.length; i++) {
+                c[i].style.backgroundColor = "green";
+            }
+        }
+        function ColorYellow() {
+            var c = document.getElementsByClassName("dot4");
+            for (var i=0; i<c.length; i++) {
+                c[i].style.backgroundColor = "yellow";
+            }
+        }
+        function ColorPurple() {
+            var c = document.getElementsByClassName("dot5");
+            for (var i=0; i<c.length; i++) {
+                c[i].style.backgroundColor = "purple";
+            }
+        }
+        function ColorOrange() {
+            var c = document.getElementsByClassName("dot6");
+            for (var i=0; i<c.length; i++) {
+                c[i].style.backgroundColor = "orange";
+            }
+        }
+        function ColorPink() {
+            var c = document.getElementsByClassName("dot7");
+            for (var i=0; i<c.length; i++) {
+                c[i].style.backgroundColor = "pink";
+            }
+        }
+    </script>
+<div class="wrapper">
+    <ul class="row1">
+        <li class="dot" onclick = "ColorBlue()"></li>
+        <li class="dot2" onclick = "ColorRed()"></li>
+        <li class="dot3" onclick = "ColorGreen()"></li>
+        <li class="dot4" onclick = "ColorYellow()"></li>
+        <li class="dot5" onclick = "ColorPurple()"></li>
+        <li class="dot6" onclick = "ColorOrange()"></li>
+        <li class="dot7" onclick = "ColorPink()"></li>
+    </ul>
+    <ul>
+        <li class="dot" onclick = "ColorBlue()"></li>
+        <li class="dot2" onclick = "ColorRed()"></li>
+        <li class="dot3" onclick = "ColorGreen()"></li>
+        <li class="dot4" onclick = "ColorYellow()"></li>
+        <li class="dot5" onclick = "ColorPurple()"></li>
+        <li class="dot6" onclick = "ColorOrange()"></li>
+        <li class="dot7" onclick = "ColorPink()"></li>
+    </ul>
+    </ul>
+    <ul>
+        <li class="dot" onclick = "ColorBlue()"></li>
+        <li class="dot2" onclick = "ColorRed()"></li>
+        <li class="dot3" onclick = "ColorGreen()"></li>
+        <li class="dot4" onclick = "ColorYellow()"></li>
+        <li class="dot5" onclick = "ColorPurple()"></li>
+        <li class="dot6" onclick = "ColorOrange()"></li>
+        <li class="dot7" onclick = "ColorPink()"></li>
+    </ul>
+    <ul>
+        <li class="dot" onclick = "ColorBlue()"></li>
+        <li class="dot2" onclick = "ColorRed()"></li>
+        <li class="dot3" onclick = "ColorGreen()"></li>
+        <li class="dot4" onclick = "ColorYellow()"></li>
+        <li class="dot5" onclick = "ColorPurple()"></li>
+        <li class="dot6" onclick = "ColorOrange()"></li>
+        <li class="dot7" onclick = "ColorPink()"></li>
+    </ul>
+    <ul>
+        <li class="dot" onclick = "ColorBlue()"></li>
+        <li class="dot2" onclick = "ColorRed()"></li>
+        <li class="dot3" onclick = "ColorGreen()"></li>
+        <li class="dot4" onclick = "ColorYellow()"></li>
+        <li class="dot5" onclick = "ColorPurple()"></li>
+        <li class="dot6" onclick = "ColorOrange()"></li>
+        <li class="dot7" onclick = "ColorPink()"></li>
+    </ul>
+    <ul>
+        <li class="dot" onclick = "ColorBlue()"></li>
+        <li class="dot2" onclick = "ColorRed()"></li>
+        <li class="dot3" onclick = "ColorGreen()"></li>
+        <li class="dot4" onclick = "ColorYellow()"></li>
+        <li class="dot5" onclick = "ColorPurple()"></li>
+        <li class="dot6" onclick = "ColorOrange()"></li>
+        <li class="dot7" onclick = "ColorPink()"></li>
+    </ul>
+    </ul>
+    <ul>
+        <li class="dot" onclick = "ColorBlue()"></li>
+        <li class="dot2" onclick = "ColorRed()"></li>
+        <li class="dot3" onclick = "ColorGreen()"></li>
+        <li class="dot4" onclick = "ColorYellow()"></li>
+        <li class="dot5" onclick = "ColorPurple()"></li>
+        <li class="dot6" onclick = "ColorOrange()"></li>
+        <li class="dot7" onclick = "ColorPink()"></li>
+    </ul>
+    <ul>
+        <li class="dot" onclick = "ColorBlue()"></li>
+        <li class="dot2" onclick = "ColorRed()"></li>
+        <li class="dot3" onclick = "ColorGreen()"></li>
+        <li class="dot4" onclick = "ColorYellow()"></li>
+        <li class="dot5" onclick = "ColorPurple()"></li>
+        <li class="dot6" onclick = "ColorOrange()"></li>
+        <li class="dot7" onclick = "ColorPink()"></li>
+    </ul>
+    <ul >
+        <li class="dot" onclick = "ColorBlue()"></li>
+        <li class="dot2" onclick = "ColorRed()"></li>
+        <li class="dot3" onclick = "ColorGreen()"></li>
+        <li class="dot4" onclick = "ColorYellow()"></li>
+        <li class="dot5" onclick = "ColorPurple()"></li>
+        <li class="dot6" onclick = "ColorOrange()"></li>
+        <li class="dot7" onclick = "ColorPink()"></li>
+    </ul>
+    <ul>
+        <li class="dot" onclick = "ColorBlue()"></li>
+        <li class="dot2" onclick = "ColorRed()"></li>
+        <li class="dot3" onclick = "ColorGreen()"></li>
+        <li class="dot4" onclick = "ColorYellow()"></li>
+        <li class="dot5" onclick = "ColorPurple()"></li>
+        <li class="dot6" onclick = "ColorOrange()"></li>
+        <li class="dot7" onclick = "ColorPink()"></li>
+    </ul>
+
+    <p style="margin-top:20px;"></p>
+
+</div>
+
 </body>
 </html>
