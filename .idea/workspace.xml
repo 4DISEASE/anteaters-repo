@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="(temp) commented out import of USER disabling database file">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="Added session data to navbar and made session last 7 days">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610040918277</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added session data to navbar and made session last 7 days">
+      <created>1610101299198</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610101299198</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +182,8 @@
     <MESSAGE value="Added home.html, base.html, and musicgrid.html&#10;Created app routes for html files&#10;Created content blocks for future use" />
     <MESSAGE value="created navigation bar&#10;called navigation bar to all other files&#10;created database&#10;created &quot;USER&quot; class for database&#10;created models.py for database models in future" />
     <MESSAGE value="(temp) commented out import of USER disabling database file" />
-    <option name="LAST_COMMIT_MESSAGE" value="(temp) commented out import of USER disabling database file" />
+    <MESSAGE value="Added session data to navbar and made session last 7 days" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added session data to navbar and made session last 7 days" />
   </component>
   <component name="WindowStateProjectService">
     <state x="256" y="23" key="#Project_Structure" timestamp="1610043021757">
@@ -199,22 +204,22 @@
     </state>
     <state x="587" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967329518" />
     <state x="2507" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608226270222" />
-    <state width="1238" height="198" key="GridCell.Tab.0.bottom" timestamp="1610100842324">
+    <state width="1238" height="198" key="GridCell.Tab.0.bottom" timestamp="1610126201813">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1610100842324" />
-    <state width="1238" height="198" key="GridCell.Tab.0.center" timestamp="1610100842323">
+    <state width="1238" height="198" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1610126201813" />
+    <state width="1238" height="198" key="GridCell.Tab.0.center" timestamp="1610126201811">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1610100842323" />
-    <state width="1238" height="198" key="GridCell.Tab.0.left" timestamp="1610100842322">
+    <state width="1238" height="198" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1610126201811" />
+    <state width="1238" height="198" key="GridCell.Tab.0.left" timestamp="1610126201809">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1610100842322" />
-    <state width="1238" height="198" key="GridCell.Tab.0.right" timestamp="1610100842323">
+    <state width="1238" height="198" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1610126201809" />
+    <state width="1238" height="198" key="GridCell.Tab.0.right" timestamp="1610126201812">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1610100842323" />
+    <state width="1238" height="198" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1610126201812" />
     <state x="128" y="90" key="MergeDialog" timestamp="1610099396855">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -223,12 +228,12 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="128" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1608459041067" />
-    <state x="368" y="219" key="Vcs.Push.Dialog.v2" timestamp="1610040922563">
+    <state x="368" y="219" key="Vcs.Push.Dialog.v2" timestamp="1610101305608">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="552" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967334857" />
     <state x="2472" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608226272002" />
-    <state x="368" y="219" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1610040922563" />
+    <state x="368" y="219" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1610101305608" />
     <state x="518" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610099392834">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
