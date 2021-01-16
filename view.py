@@ -5,16 +5,26 @@ from sqlalchemy import func
 #from models import USER
 #from flask_table import Col
 from datetime import timedelta
-#from models import USER
 
-
-#create flask
+#create app
 app = Flask(__name__, static_url_path = "", static_folder = "static")
-app.secret_key = "hello"
-app.permanent_session_lifetime = timedelta(days = 7)
-#database config
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///allusers.sqlite3'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['SECRET_KEY'] = "goodlordihopethisworks"
 db = SQLAlchemy(app)
+db.create_all()
+app.permanent_session_lifetime = timedelta(days = 7)
+
+#models
+class allusers(db.Model):
+    id = db.Column(db.Integer, primary_key = True)
+    username = db.Column(db.String(15), unique = True, nullable = False)
+    password = db.Column(db.String(60), nullable = False)
+
+    def __init__(self, username, password):
+        self.username = username
+        self.password = password
+
 
 #more login stuff
 class User():
@@ -40,9 +50,12 @@ def __repr__(self):
 #        db.session.commit()
 #        userid = db.session.query(func.max(USER.UserID))
 
-users = []
-users.append(User(id=1, username ='test', password = "password"))
-users.append(User(id=2, username ='anothertest', password = "password"))
+
+def create():
+    if request.form:
+        user = allusers(username = request.form.get('username'), password = request.form.get("password"))
+        db.session.add(user)
+        db.session.commit()
 
 ##home
 @app.route ("/")
@@ -70,6 +83,7 @@ def login():
 @app.route("/logintwo", methods=["POST", "GET"])
 def logintwo():
     if request.method == "POST":
+        users = allusers.query.all()
         session.pop('user_id', None)
         session.permanent = True
 
@@ -119,11 +133,19 @@ def logout():
     session.pop("email", None)
     return redirect(url_for("logintwo"))
 
-@app.route("/newuser")
+@app.route("/newuser", methods = ["POST", "GET"])
 def newuser():
+    if request.method == "POST":
+        user = allusers(username = request.form.get('username'), password = request.form.get("password"))
+        db.session.add(user)
+        db.session.commit()
+        flash("New account successfully created")
+        return redirect(url_for("logintwo"))
     flash("Create a new account")
     return render_template("newuser.html")
 
+
 #run
 if __name__ == "__main__":
+    db.create_all()
     app.run(debug = True)
