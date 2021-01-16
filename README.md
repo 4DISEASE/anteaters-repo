@@ -5,6 +5,15 @@
  <b>Journals</b><br />
  Kira and Kaila: https://docs.google.com/spreadsheets/d/1Le2ynPNx4icrP6ZAuqAQ4gC18K45oiyorEQVIJgjEqQ/edit?usp=sharing <br />
  Tyler and Dylan: https://docs.google.com/document/d/1-Oq9vgCms3otTF7Oqa3uW6bmFMls3L6qL-MIZCKjGQ8/edit?usp=sharing
+ 
+ **How to Navigate**
+ * Log into your account via the login navbar button, or create an account if you don't have one
+ * After logging in, you will be able to access the music grid (no sound for now - just interactable)
+ 
+ **Completed Tickets**
+ * Kira + Kaila: Finished login system https://github.com/4DISEASE/anteaters-repo/projects/1#card-51020326
+ * Dylan: Finished deployment and flask setup : https://github.com/4DISEASE/anteaters-repo/projects/1#card-51019720
+ * Tyler: Finished basic music grid: https://github.com/4DISEASE/anteaters-repo/projects/1#card-51019737
 
 **Period 2 Anteaters - Project Plan**
 
@@ -91,7 +100,3 @@ Idea 5:
     *   Replayable Music From Grid (saved by logging in)
 
 
- <b>Changelog (testing for actual changes later)</b><br />
-Kira  | Kaila | Tyler | Dylan
-------------- | ------------- | ------------- | -------------
-Updated READme  | | Added view.py | |
