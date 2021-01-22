@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="added soupsieve to requirements.txt">
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="added port to run">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611308199077</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added port to run">
+      <created>1611308680235</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611308680235</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added port to run">
+      <created>1611308707920</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1611308707920</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +230,8 @@
     <MESSAGE value="test comment" />
     <MESSAGE value="updated requirements.txt file" />
     <MESSAGE value="added soupsieve to requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="added soupsieve to requirements.txt" />
+    <MESSAGE value="added port to run" />
+    <option name="LAST_COMMIT_MESSAGE" value="added port to run" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
