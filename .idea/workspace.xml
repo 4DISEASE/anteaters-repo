@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="added in a billboard api (shows up on the navbar)">
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="updated requirements.txt file">
+      <change beforePath="$PROJECT_DIR$/.idea/anteaters-repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/anteaters-repo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +41,6 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1lQl5PCCF2zL7heQKxaeW4JnkHC" />
   <component name="ProjectViewState">
@@ -49,41 +51,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/billboardAPI.py" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kirag\Documents\GitHub\anteaters-repo" />
-      <recent name="C:\Users\kirag\Documents\GitHub\anteaters-repo\.idea" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.view">
-    <configuration name="billboardAPI" type="PythonConfigurationType" factoryName="Python">
-      <module name="anteaters-repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\kirag\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/billboardAPI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="view" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="anteaters-repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,10 +83,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.billboardAPI" />
-      <item itemvalue="Python.view" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.view" />
@@ -180,14 +154,35 @@
       <option name="project" value="LOCAL" />
       <updated>1610040918277</updated>
     </task>
-    <task id="LOCAL-00009" summary="added in a billboard api (shows up on the navbar)">
-      <created>1611307250170</created>
+    <task id="LOCAL-00009" summary="added deployment files">
+      <created>1610828331502</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1611307250170</updated>
+      <updated>1610828331502</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="removed ip in run">
+      <created>1611164936931</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611164936931</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test comment">
+      <created>1611165359133</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611165359133</updated>
+    </task>
+    <task id="LOCAL-00012" summary="updated requirements.txt file">
+      <created>1611165502825</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611165502825</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,109 +207,11 @@
     <MESSAGE value="created navigation bar&#10;called navigation bar to all other files&#10;created database&#10;created &quot;USER&quot; class for database&#10;created models.py for database models in future" />
     <MESSAGE value="(temp) commented out import of USER disabling database file" />
     <MESSAGE value="logins stuff" />
-    <MESSAGE value="added in a billboard api (shows up on the navbar)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added in a billboard api (shows up on the navbar)" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="256" y="23" key="#Project_Structure" timestamp="1610043021757">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="440" y="114" key="#Project_Structure/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967417488" />
-    <state x="256" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1610043021757" />
-    <state x="245" y="66" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611303201880">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="245" y="66" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1611303201880" />
-    <state x="425" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611255801469">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1611255801469" />
-    <state x="354" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.777@0.23.1280.777" timestamp="1608459992359" />
-    <state x="328" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1608457701357">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="328" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.777@0.23.1280.777" timestamp="1608457701357" />
-    <state x="2507" y="108" key="CommitChangelistDialog2" timestamp="1608226270222">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="587" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967329518" />
-    <state x="2507" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608226270222" />
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1610388053679">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1610388053679" />
-    <state x="845" y="167" key="FileChooserDialogImpl" timestamp="1611303200926">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="845" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611303200926" />
-    <state width="884" height="195" key="GridCell.Tab.0.bottom" timestamp="1611307221726">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="884" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611307221726" />
-    <state width="1238" height="198" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1610100842324" />
-    <state width="884" height="195" key="GridCell.Tab.0.center" timestamp="1611307221725">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="884" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611307221725" />
-    <state width="1238" height="198" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1610100842323" />
-    <state width="884" height="195" key="GridCell.Tab.0.left" timestamp="1611307221725">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="884" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611307221725" />
-    <state width="1238" height="198" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1610100842322" />
-    <state width="884" height="195" key="GridCell.Tab.0.right" timestamp="1611307221725">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="884" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611307221725" />
-    <state width="1238" height="198" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1610100842323" />
-    <state x="591" y="158" key="IDE.errors.dialog" timestamp="1610388573935">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="591" y="158" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1610388573935" />
-    <state x="154" y="71" key="MergeDialog" timestamp="1611307125897">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="154" y="71" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1611307125897" />
-    <state x="128" y="90" key="MergeDialog/0.23.1280.777@0.23.1280.777" timestamp="1610099396855" />
-    <state x="506" y="115" key="RollbackChangesDialog" timestamp="1610127068553">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="506" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610127068552" />
-    <state x="154" y="0" key="SettingsEditor" timestamp="1611307400409">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="154" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611307400409" />
-    <state x="128" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1608459041067" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1610126701542">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1610126701542" />
-    <state x="535" y="326" key="VCS.ChangelistChooser" timestamp="1610126710515">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="535" y="326" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1610126710515" />
-    <state x="442" y="208" key="Vcs.Push.Dialog.v2" timestamp="1611307256932">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967334857" />
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608226272002" />
-    <state x="442" y="208" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611307256932" />
-    <state x="368" y="219" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1610040922563" />
-    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610388053679">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1610388053679" />
-    <state x="622" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611307108787">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607966933394" />
-    <state x="2697" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608140484910" />
-    <state x="622" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1611307108787" />
-    <state x="518" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1610099392834" />
-    <state x="716" y="113" width="672" height="678" key="search.everywhere.popup" timestamp="1610388512166">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="716" y="113" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610388512166" />
+    <MESSAGE value="added deployment files" />
+    <MESSAGE value="removed ip in run" />
+    <MESSAGE value="test comment" />
+    <MESSAGE value="updated requirements.txt file" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated requirements.txt file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
