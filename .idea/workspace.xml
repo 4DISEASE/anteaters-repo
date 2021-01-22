@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="logins stuff">
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/anteaters-repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/anteaters-repo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/musicgrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/musicgrid.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610040918277</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Re-did the music grid so when on dot is pressed, only that dot changed color.">
+      <created>1611250033709</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611250033709</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +185,8 @@
     <MESSAGE value="created navigation bar&#10;called navigation bar to all other files&#10;created database&#10;created &quot;USER&quot; class for database&#10;created models.py for database models in future" />
     <MESSAGE value="(temp) commented out import of USER disabling database file" />
     <MESSAGE value="logins stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="logins stuff" />
+    <MESSAGE value="Re-did the music grid so when on dot is pressed, only that dot changed color." />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-did the music grid so when on dot is pressed, only that dot changed color." />
   </component>
   <component name="WindowStateProjectService">
     <state x="256" y="23" key="#Project_Structure" timestamp="1610043021757">
@@ -186,6 +194,10 @@
     </state>
     <state x="440" y="114" key="#Project_Structure/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967417488" />
     <state x="256" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1610043021757" />
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611250108487">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1611250108487" />
     <state x="354" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608459992359">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -194,33 +206,37 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="328" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.777@0.23.1280.777" timestamp="1608457701357" />
-    <state x="2507" y="108" key="CommitChangelistDialog2" timestamp="1608226270222">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1611250033044">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="587" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967329518" />
+    <state x="587" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1611250033044" />
     <state x="2507" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608226270222" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1610388053679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1610388053679" />
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom" timestamp="1610388314134">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1611282075003">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1611282075003" />
     <state width="1493" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610388314134" />
     <state width="1238" height="198" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1610100842324" />
-    <state width="1493" height="130" key="GridCell.Tab.0.center" timestamp="1610388314133">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1611282075002">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1611282075002" />
     <state width="1493" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610388314133" />
     <state width="1238" height="198" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1610100842323" />
-    <state width="1493" height="130" key="GridCell.Tab.0.left" timestamp="1610388314133">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1611282075002">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1611282075002" />
     <state width="1493" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610388314133" />
     <state width="1238" height="198" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1610100842322" />
-    <state width="1493" height="130" key="GridCell.Tab.0.right" timestamp="1610388314133">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1611282075002">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1611282075002" />
     <state width="1493" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610388314133" />
     <state width="1238" height="198" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1610100842323" />
     <state x="591" y="158" key="IDE.errors.dialog" timestamp="1610388573935">
@@ -248,20 +264,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="535" y="326" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1610126710515" />
-    <state x="368" y="219" key="Vcs.Push.Dialog.v2" timestamp="1610040922563">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1611250036161">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607967334857" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1611250036161" />
     <state x="2472" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608226272002" />
     <state x="368" y="219" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1610040922563" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610388053679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1610388053679" />
-    <state x="622" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610558218679">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611249773134">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607966933394" />
+    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1611249773134" />
     <state x="2697" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608140484910" />
     <state x="622" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1610558218676" />
     <state x="518" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1610099392834" />

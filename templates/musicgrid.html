@@ -201,36 +201,69 @@ body{
 
 <script src = "https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
 <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 <script id = "rendered-js>">
+$(document).ready(function(){
+
+    var audioA = document.createElement('audio');
+    audioA.setAttribute('src', ' http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');
+
+    var audioB = document.createElement('audio');
+    audioB.setAttribute('src', ' http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');
+
+    var audioC = document.createElement('audio');
+    audioC.setAttribute('src', ' http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');
+
+    var audioD = document.createElement('audio');
+    audioD.setAttribute('src', ' http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');
+
+    var audioE = document.createElement('audio');
+    audioE.setAttribute('src', ' http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');
+
+    var audioF = document.createElement('audio');
+    audioF.setAttribute('src', ' http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');
+
+    var audioG = document.createElement('audio');
+    audioG.setAttribute('src', ' http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');
+
 
     $('.dot').click(function(){
- $(this).css({background:'blue'});
-  });
+       $(this).css({background:'blue'});
+       audioC.play();
+    });
 
   $('.dot2').click(function(){
  $(this).css({background:'red'});
+ audioD.play();
   });
 
   $('.dot3').click(function(){
  $(this).css({background:'green'});
+ audioE.play();
   });
 
   $('.dot4').click(function(){
  $(this).css({background:'yellow'});
+ audioF.play();
   });
 
   $('.dot5').click(function(){
  $(this).css({background:'purple'});
+ audioG.play();
   });
 
   $('.dot6').click(function(){
  $(this).css({background:'orange'});
+ audioA.play();
   });
 
   $('.dot7').click(function(){
  $(this).css({background:'pink'});
+ audioB.play();
   });
 
+})
     </script>
 {% endblock %}
 
