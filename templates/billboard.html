@@ -1,0 +1,46 @@
+{% set hot100 = data["hot100data"] %}
+{% set artist100 = data["artist100data"] %}
+{% set billboard200 = data["billboard200data"] %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Top Songs</title>
+    <!-- initialize bootstrap -->
+    <link rel="stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity = "sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin = "anonymous">
+</head>
+<body>
+<!-- extends menu bar -->
+{% extends "base.html" %}
+
+<!-- page content -->
+{% block content %}
+
+<script>
+    function top100(){
+        var x = document.getElementById("displaytext");
+        x.innerHTML = "{% autoescape false %} {{hot100}}{% endautoescape %}"
+    }
+
+    function artist100(){
+    var x = document.getElementById("displaytext");
+    x.innerHTML = "{% autoescape false %} {{artist100}}{% endautoescape %}"
+    }
+
+    function billboard200(){
+    var x = document.getElementById("displaytext");
+    x.innerHTML = "{% autoescape false %} {{billboard200}}{% endautoescape %}"
+    }
+
+</script>
+
+<button onclick="top100()">Top 100 songs</button>
+<button onclick="artist100()">Top 100 artists</button>
+<button onclick="billboard200()">Billboard 200</button>
+
+<div id="displaytext">Information will show up here.</div>
+
+{% endblock %}
+</body>
+</html>

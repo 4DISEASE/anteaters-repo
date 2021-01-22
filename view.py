@@ -5,6 +5,7 @@ from sqlalchemy import func
 #from models import USER
 #from flask_table import Col
 from datetime import timedelta
+import billboardAPI
 
 #create app
 app = Flask(__name__, static_url_path = "", static_folder = "static")
@@ -34,7 +35,7 @@ class User():
         self.password = password
 
 #def __repr__(self):
-    #return f"User('{self.username}')"
+#    return f"User('{self.username}')"
 
 #def databases():
 #    records= []
@@ -143,6 +144,10 @@ def newuser():
         return redirect(url_for("logintwo"))
     flash("Create a new account")
     return render_template("newuser.html")
+
+@app.route("/billboard")
+def billboard():
+    return render_template("billboard.html", data=billboardAPI.billboarddata())
 
 
 #run
