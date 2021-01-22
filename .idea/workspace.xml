@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="updated requirements.txt file">
-      <change beforePath="$PROJECT_DIR$/.idea/anteaters-repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/anteaters-repo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="added soupsieve to requirements.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611165502825</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added soupsieve to requirements.txt">
+      <created>1611308199077</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611308199077</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,7 +216,8 @@
     <MESSAGE value="removed ip in run" />
     <MESSAGE value="test comment" />
     <MESSAGE value="updated requirements.txt file" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated requirements.txt file" />
+    <MESSAGE value="added soupsieve to requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added soupsieve to requirements.txt" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
