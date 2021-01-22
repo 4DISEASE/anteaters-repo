@@ -26,6 +26,7 @@ class allusers(db.Model):
         self.username = username
         self.password = password
 
+
 #more login stuff
 class User():
     def __init__(self, id, username, password):
