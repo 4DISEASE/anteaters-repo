@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="sorry forgot to add something in the requirements file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="added piano notes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +36,6 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1lQl5PCCF2zL7heQKxaeW4JnkHC" />
   <component name="ProjectViewState">
@@ -221,7 +218,8 @@
     <MESSAGE value="logins stuff" />
     <MESSAGE value="added in a billboard api (shows up on the navbar)" />
     <MESSAGE value="sorry forgot to add something in the requirements file" />
-    <option name="LAST_COMMIT_MESSAGE" value="sorry forgot to add something in the requirements file" />
+    <MESSAGE value="added piano notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added piano notes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="256" y="23" key="#Project_Structure" timestamp="1610043021757">
@@ -312,12 +310,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1610388053679" />
-    <state x="622" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611336258318">
+    <state x="622" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611770735862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607966933394" />
     <state x="2697" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608140484910" />
-    <state x="622" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1611336258318" />
+    <state x="622" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1611770735862" />
     <state x="518" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1610099392834" />
     <state x="716" y="113" width="672" height="678" key="search.everywhere.popup" timestamp="1610388512166">
       <screen x="0" y="0" width="1536" height="824" />
