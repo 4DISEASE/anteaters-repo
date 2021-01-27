@@ -4,3 +4,4 @@ SQLAlchemy
 flask_SQLAlchemy
 datetime
 billboard.py
+soupsieve
