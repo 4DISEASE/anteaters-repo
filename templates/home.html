@@ -5,6 +5,32 @@
     <title>Anteaters Music Maker</title>
     <!-- initialize bootstrap -->
     <link rel="stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity = "sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin = "anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+    <style>
+        .title {
+            background-image: url({{ url_for('static', filename='img/guitarbg.jpg') }});
+            background-size: 100%;
+            background-repeat: no-repeat;
+            font-size: 400px;
+            padding-top: 15%;
+            padding-bottom: 10%;
+
+            text-align: center;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            font-size: 550%;
+            color: #fff;
+        }
+
+        .top {
+            background-color: #333333;
+        }
+
+        .filler {
+            background-color: #575757;
+            height: 250px;
+        }
+    </style>
 </head>
 <body>
 <!-- extends menu bar -->
@@ -12,7 +38,17 @@
 
 <!-- page content -->
 {% block content %}
-<p>hello world</p>
+<div class="title">
+    <p>Anteaters Music</p>
+</div>
+
+
+<div class="top">
+    <p>Website Links</p>
+    <div class="filler">
+        <p> Links: test</p>
+    </div>
+</div>
 {% endblock %}
 </body>
 </html>
