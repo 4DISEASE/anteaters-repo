@@ -213,7 +213,7 @@ $(document).ready(function(){
     audioB.setAttribute('src', 'http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');
 
     var audioC = document.createElement('audio');
-    audioC.setAttribute('src', 'http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');
+    audioC.setAttribute('src', url({{ url_for('static', filename='pianonotes/C.mp3') }}));
 
     var audioD = document.createElement('audio');
     audioD.setAttribute('src', 'http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');

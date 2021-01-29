@@ -19,13 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="Added easter egg">
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="added piano notes">
+      <change afterPath="$PROJECT_DIR$/static/fonts/yanone.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/guitarbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/references.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/anteaters-repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/anteaters-repo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/references.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/references.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,14 +218,7 @@
       <option name="project" value="LOCAL" />
       <updated>1611770753484</updated>
     </task>
-    <task id="LOCAL-00012" summary="added static folder&#10;added secret &quot;references&quot; file - still needs link in home page&#10;styled home page">
-      <created>1611827344715</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1611827344715</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -254,9 +249,7 @@
     <MESSAGE value="added in a billboard api (shows up on the navbar)" />
     <MESSAGE value="sorry forgot to add something in the requirements file" />
     <MESSAGE value="added piano notes" />
-    <MESSAGE value="added static folder&#10;added secret &quot;references&quot; file - still needs link in home page&#10;styled home page" />
-    <MESSAGE value="Added easter egg" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added easter egg" />
+    <option name="LAST_COMMIT_MESSAGE" value="added piano notes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
