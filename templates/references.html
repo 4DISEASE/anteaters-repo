@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>ref</title>
+    <style>
+        .reference {
+            padding-top: 20px;
+        }
+    </style>
 </head>
 <body>
 {% extends "base.html" %}
 
 {% block content %}
-<p>https://www.stockvault.net/photo/101726/guitar-2</p>
-<p>https://fonts.google.com/specimen/Yanone+Kaffeesatz?preview.text=Anteaters%20Music&preview.text_type=custom</p>
+<div class = "reference">
+    <ul>
+        <p>This is a Page Used For Storage of Any References Used For The Website</p>
+        <li>
+            <a href = "https://www.stockvault.net/photo/101726/guitar-2">Background Image</a>
+        </li>
+        <li>
+            <a href = "https://fonts.google.com/specimen/Yanone+Kaffeesatz?preview.text=Anteaters%20Music&preview.text_type=custom">Font</a>
+        </li>
+        <li>
+            <a href = "http://nighthawkcoders.cf/landing/python/">Nighthawk Coders</a>
+        </li>
+        <li>
+            <a href ="https://github.com/4DISEASE/anteaters-repo">Github</a>
+        </li>
+    </ul>
+</div>
 {% endblock %}
 </body>
 </html>

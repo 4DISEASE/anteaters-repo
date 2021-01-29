@@ -35,6 +35,11 @@
         <li class = "navbar.content navbar-nav">
             <a href = "/user" class = "nav-link">{{ user }}</a>
         </li>
+        {% if insession == False %}
+        <li class = "navbar.content navbar-nav">
+            <a href = "/references" class = "nav-link"></a>
+        </li>
+        {% endif %}
     </nav>
 {% block content %}{% endblock %}
 </body>

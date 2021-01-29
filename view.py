@@ -63,9 +63,11 @@ def create():
 def home():
     if "user" in session:
         user = session["user"]
-        return render_template('home.html', user = user)
+        insession = True
+        return render_template('home.html', user = user, insession = True)
     else:
-        return render_template('home.html')
+        insession = False
+        return render_template('home.html', insession = False)
 
 ##music grid
 @app.route ("/music-maker")
@@ -148,6 +150,10 @@ def newuser():
 @app.route("/billboard")
 def billboard():
     return render_template("billboard.html", data=billboardAPI.billboarddata())
+
+@app.route("/references")
+def ref():
+    return render_template("references.html")
 
 
 #run
