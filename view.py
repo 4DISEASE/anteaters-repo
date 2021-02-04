@@ -54,7 +54,7 @@ class User():
 
 def create():
     if request.form:
-        user = allusers(username = request.form.get('username'), password = request.form.get("password"))
+        user = allusers(username = request.form.get('username'), password = request.form.get('password'))
         db.session.add(user)
         db.session.commit()
 
@@ -90,18 +90,20 @@ def logintwo():
         session.pop('user_id', None)
         session.permanent = True
 
-        username = request.form["username"]
+        username = request.form['username']
         password = request.form['password']
 
-        user = [x for x in users if x.username == username][0]
-        if user and user.password == password:
-            session["user"] = user.id
-            flash("You have been logged in")
-            return redirect(url_for("user"))
-
-        flash("Password is incorrect or user does not exist.")
+        try:
+            user = [x for x in users if x.username == username][0]
+            if user and user.password == password:
+                session["user"] = user.id
+                flash("You have been logged in")
+                return redirect(url_for("user"))
+            else:
+                flash("Password is incorrect or user does not exist.")
+        except:
+            flash("User is incorrect or user does not exist.")
         return redirect(url_for('logintwo'))
-    
     else:
         if "user" in session:
             flash("You are already logged in")
