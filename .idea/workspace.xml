@@ -22,7 +22,7 @@
     <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="added piano notes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allusers.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/allusers.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/musicgrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/musicgrid.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +32,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1lQl5PCCF2zL7heQKxaeW4JnkHC" />
   <component name="ProjectViewState">
@@ -51,13 +60,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/billboardAPI.py" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/fonts" />
+      <recent name="$PROJECT_DIR$/static/img" />
       <recent name="C:\Users\kirag\Documents\GitHub\anteaters-repo" />
       <recent name="C:\Users\kirag\Documents\GitHub\anteaters-repo\.idea" />
       <recent name="$PROJECT_DIR$/templates" />
@@ -205,6 +216,9 @@
     <option name="localTasksCounter" value="12" />
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -231,6 +245,28 @@
     <MESSAGE value="sorry forgot to add something in the requirements file" />
     <MESSAGE value="added piano notes" />
     <option name="LAST_COMMIT_MESSAGE" value="added piano notes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1612504453502">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612499306925" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1612504453502" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1612504453501">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612499306925" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1612504453501" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1612504453501">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612499306925" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1612504453501" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1612504453501">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612499306925" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1612504453501" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
