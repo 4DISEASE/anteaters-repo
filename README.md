@@ -6,9 +6,11 @@ Welcome to the Anteaters Music Website! We aim to work towards:
 * A playlists tab to create playlists of songs
  
  <b>How to Access</b><br />
- * Clicking this [link](http://104.63.252.143/) will take you to the front page of the website.
- * Secret [hidden page](http://104.63.252.143/references).. try to find where it is
+ * Clicking this link will take you to the front page of the website.
+ * Secret hidden page... try to find where it is
  
+<b>Link to Running Webserver</b><br />
+ http://104.63.252.143/
 # Update 2/5
  <b>API Progress</b><br />
  * API is finished with multiple ways to filter + requests
@@ -28,11 +30,8 @@ Welcome to the Anteaters Music Website! We aim to work towards:
  * Connects to collegeboard topic of a collection of data that is stored
  * [Link to ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-53523712)
  
- <b>Playlist Progress</b><br />
- * After some research, we cannot distribute music without proper permission from artist
- * Changed playlist function to "favorite songs" for each user
- * Added display function to database to show all users and favorite songs/artists
- * [Link to ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-52936929)
+ <b>Logins Progress</b><br />
+ * 
  
 # Project Plan
 **College Board “Big Ideas”**
