@@ -6,8 +6,8 @@ Welcome to the Anteaters Music Website! We aim to work towards:
 * A playlists tab to create playlists of songs
  
  <b>How to Access</b><br />
- * Clicking this link will take you to the front page of the website.
- * Secret hidden page... try to find where it is
+ * Clicking this [link](http://104.63.252.143/) will take you to the front page of the website.
+ * Secret [hidden page](http://104.63.252.143/references).. try to find where it is
  
 # Update 2/5
  <b>API Progress</b><br />
