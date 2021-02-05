@@ -1,22 +1,37 @@
-# anteaters-repo
- <b>Scrum Board</b><br />
-**[https://github.com/4DISEASE/anteaters-repo/projects/1](https://github.com/4DISEASE/anteaters-repo/projects/1)**
+# Anteaters Music Website
+Welcome to the Anteaters Music Website! We aim to work towards:
+* A login function to access the site
+* A music grid that saves work-in-progress music in a database
+* An API to access billboard charts and cleanly display information
+* A playlists tab to create playlists of songs
  
- <b>Journals</b><br />
- Kira and Kaila: https://docs.google.com/spreadsheets/d/1Le2ynPNx4icrP6ZAuqAQ4gC18K45oiyorEQVIJgjEqQ/edit?usp=sharing <br />
- Tyler and Dylan: https://docs.google.com/document/d/1-Oq9vgCms3otTF7Oqa3uW6bmFMls3L6qL-MIZCKjGQ8/edit?usp=sharing
+ <b>How to Access</b><br />
+ * Clicking this link will take you to the front page of the website.
+ * Secret hidden page... try to find where it is
  
- **How to Navigate**
- * Log into your account via the login navbar button, or create an account if you don't have one
- * After logging in, you will be able to access the music grid (no sound for now - just interactable)
+# Update 2/5
+ <b>API Progress</b><br />
+ * API is finished with multiple ways to filter + requests
+ * Requires CSS styling to look more aesthetically appealing
+ * Aligns with collegeboard topic of sequencing and iterating
+ * [Link to ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-53798918)
  
- **Completed Tickets**
- * Kira + Kaila: Finished login system https://github.com/4DISEASE/anteaters-repo/projects/1#card-51020326
- * Dylan: Finished deployment and flask setup : https://github.com/4DISEASE/anteaters-repo/projects/1#card-51019720
- * Tyler: Finished basic music grid: https://github.com/4DISEASE/anteaters-repo/projects/1#card-51019737
-
-**Period 2 Anteaters - Project Plan**
-
+ <b>Music Grid Progress</b><br />
+ * Grid is interactable with colors 
+ * Now features piano note sounds 
+ * Covers topic of user action and a procedure
+ * [Link to ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-53767807)
+ 
+ <b>Logins Progress</b><br />
+ * Login function is finished, bugs so far are fixed
+ * Database allows for storage of users and later, in-progress music
+ * Connects to collegeboard topic of a collection of data that is stored
+ * [Link to ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-53523712)
+ 
+ <b>Logins Progress</b><br />
+ * 
+ 
+# Project Plan
 **College Board “Big Ideas”**
 
 Idea 1 <span style="text-decoration:underline;">(Summary)</span>
