@@ -21,10 +21,11 @@ class allusers(db.Model):
     id = db.Column(db.Integer, primary_key = True)
     username = db.Column(db.String(15), unique = True, nullable = False)
     password = db.Column(db.String(60), nullable = False)
-
-    def __init__(self, username, password):
+    def __init__(self, username, password, song, artist):
         self.username = username
         self.password = password
+        self.song = song
+        self.artist = artist
 
 
 #more login stuff
@@ -68,6 +69,11 @@ def home():
     else:
         insession = False
         return render_template('home.html', insession = False)
+
+##favorites
+@app.route ("/favorites")
+def fav():
+    return render_template('fav.html', values=allusers.query.all())
 
 ##music grid
 @app.route ("/music-maker")
@@ -120,6 +126,7 @@ def user():
         if request.method == "POST":
             email = request.form["email"]
             session["email"] = email
+
             flash("email has been submitted")
         else:
             if "email" in session:

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favorites</title>
+</head>
+<body>
+{% extends "base.html" %}
+
+{% block content %}
+    {% for item in values %}
+    <p>ID: {{item.id}} Username: {{item.username}} Favorite Song: {{item.song}} Favorite Artist: {{item.artist}}</p>
+    {% endfor %}
+{% endblock %}
+</body>
+</html>
