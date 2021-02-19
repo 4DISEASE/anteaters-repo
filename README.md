@@ -11,6 +11,21 @@ Welcome to the Anteaters Music Website! We aim to work towards:
  
 <b>Link to Running Webserver</b><br />
  http://104.63.252.143/
+ 
+# Update 2/18
+<b>Suggestions from other team review</b><br />
+We recieved these suggestions from the Breakertorts and made sure to work on them.
+* "UI: Music grid could look a little more exciting" 
+    * Initial grid layout replaced with a more aesthetically pleasing keyboard 
+    * All keys functional now, currently working on making them change color/look less squished
+* "Modeling: As of right now, your music notes are not local"
+    * src links to audio replaced with local mp3 files
+* "UI: Login page is a little off-center"
+    * Margins for pages have been fixed
+    * Still working on overall aesthetics of website
+* "Code organization: sessions should probably be located in their own class, not in view.py"
+    * Code in view.py re-organized and labeled, deleted unused code
+ 
 # Update 2/5
  <b>API Progress</b><br />
  * API is finished with multiple ways to filter + requests
