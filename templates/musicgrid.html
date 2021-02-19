@@ -84,40 +84,40 @@
 $(document).ready(function(){
 
     var audioA = document.createElement('audio');
-    audioA.setAttribute('src', 'static/sounds/A.mp3');
+    audioA.setAttribute('src', '{{url_for('static', filename='sounds/A.mp3')}}');
 
     var audioB = document.createElement('audio');
-    audioB.setAttribute('src', 'static/sounds/B.mp3');
+    audioB.setAttribute('src', '{{url_for('static', filename='sounds/B.mp3')}}');
 
     var audioC = document.createElement('audio');
-    audioC.setAttribute('src', 'static/sounds/C.mp3');
+    audioC.setAttribute('src', '{{url_for('static', filename='sounds/C.mp3')}}');
 
     var audioD = document.createElement('audio');
-    audioD.setAttribute('src', 'static/sounds/D.mp3');
+    audioD.setAttribute('src', '{{url_for('static', filename='sounds/D.mp3')}}');
 
     var audioE = document.createElement('audio');
-    audioE.setAttribute('src', 'static/sounds/E.mp3');
+    audioE.setAttribute('src', '{{url_for('static', filename='sounds/E.mp3')}}');
 
     var audioF = document.createElement('audio');
-    audioF.setAttribute('src', 'static/sounds/F.mp3');
+    audioF.setAttribute('src', '{{url_for('static', filename='sounds/F.mp3')}}');
 
     var audioG = document.createElement('audio');
-    audioG.setAttribute('src', 'static/sounds/G.mp3');
+    audioG.setAttribute('src', '{{url_for('static', filename='sounds/G.mp3')}}');
 
     var audioAB = document.createElement('audio');
-    audioAB.setAttribute('src', 'static/sounds/A#_Bb.mp3');
+    audioAB.setAttribute('src', '{{url_for('static', filename='sounds/A#_Bb.mp3')}}');
 
     var audioCD = document.createElement('audio');
-    audioCD.setAttribute('src', 'static/sounds/C#_Db.mp3');
+    audioCD.setAttribute('src', '{{url_for('static', filename='sounds/C#_Db.mp3')}}');
 
     var audioDE = document.createElement('audio');
-    audioDE.setAttribute('src', 'static/sounds/D#_Eb.mp3');
+    audioDE.setAttribute('src', '{{url_for('static', filename='sounds/D#_Eb.mp3')}}');
 
     var audioFG = document.createElement('audio');
-    audioFG.setAttribute('src', 'static/sounds/F#_Gb.mp3');
+    audioFG.setAttribute('src', '{{url_for('static', filename='sounds/F#_Gb.mp3')}}');
 
     var audioGA = document.createElement('audio');
-    audioGA.setAttribute('src', 'static/sounds/G#_Ab.mp3');
+    audioGA.setAttribute('src', '{{url_for('static', filename='sounds/G#_Ab.mp3')}}');
 
 
     $('.dot').click(function(){
