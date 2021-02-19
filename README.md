@@ -25,6 +25,7 @@ We recieved these suggestions from the Breakertorts and made sure to work on the
     * Still working on overall aesthetics of website
 * "Code organization: sessions should probably be located in their own class, not in view.py"
     * Code in view.py re-organized and labeled, deleted unused code
+* "Added dictionary to transfer data from SQLALchemy table to make organization and metadata management easier."
  
 # Update 2/5
  <b>API Progress</b><br />
