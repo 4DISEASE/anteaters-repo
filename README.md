@@ -25,7 +25,14 @@ We recieved these suggestions from the Breakertorts and made sure to work on the
     * Still working on overall aesthetics of website
 * "Code organization: sessions should probably be located in their own class, not in view.py"
     * Code in view.py re-organized and labeled, deleted unused code
-* "Added dictionary to transfer data from SQLALchemy table to make organization and metadata management easier."
+
+<b>Ticket Updates</b><br />
+![snipp](https://user-images.githubusercontent.com/70781122/108482698-abc8a100-724e-11eb-92f0-654bcfd76063.JPG)
+* Music grid has been updated to a keyboard
+* Working on implimenting a dropdown that brings up images of sheet music to play
+* Favorite music function in progress - querys users and adds them to dictionary
+* Working on updating looks of website
+
  
 # Update 2/5
  <b>API Progress</b><br />
