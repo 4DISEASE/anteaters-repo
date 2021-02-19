@@ -28,10 +28,10 @@ We recieved these suggestions from the Breakertorts and made sure to work on the
 
 <b>Ticket Updates</b><br />
 ![snipp](https://user-images.githubusercontent.com/70781122/108482698-abc8a100-724e-11eb-92f0-654bcfd76063.JPG)
-* Music grid has been updated to a keyboard
+* Music grid has been updated to a keyboard [ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-54738436)
 * Working on implimenting a dropdown that brings up images of sheet music to play
-* Favorite music function in progress - querys users and adds them to dictionary
-* Working on updating looks of website
+* Favorite music function in progress - querys users and adds them to dictionary [ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-55044917)
+* Working on updating looks of websit e[ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-55257236)
 
  
 # Update 2/5
