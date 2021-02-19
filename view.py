@@ -59,6 +59,18 @@ def create():
         db.session.add(user)
         db.session.commit()
 
+#create dictionary for all users
+def query_users():
+    record = []
+    users = allusers.query.all()
+    for user in users:
+        user_dict = {'id': user.id, 'name': user.username, 'password': user.password}
+        record.append(user_dict)
+    return record
+data = query_users()
+print(data)
+
+
 ##home
 @app.route ("/")
 def home():
@@ -73,7 +85,7 @@ def home():
 ##favorites
 @app.route ("/favorites")
 def fav():
-    return render_template('fav.html', values=allusers.query.all())
+    return render_template('fav.html', data = query_users())
 
 ##music grid
 @app.route ("/music-maker")
