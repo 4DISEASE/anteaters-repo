@@ -11,6 +11,23 @@
     <link rel="stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity = "sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin = "anonymous">
 </head>
 <body>
+<style>
+    h1 {
+    text-align: center;
+    font-size: 300px;
+    }
+
+    button {
+    text-align: center;
+    border-radius: 25px;
+    height: 25px;
+    width: 160px;
+    }
+
+    div{
+    text-align: center;
+    }
+</style>
 <!-- extends menu bar -->
 {% extends "base.html" %}
 
@@ -34,10 +51,12 @@
     }
 
 </script>
-
-<button onclick="top100()">Top 100 songs</button>
-<button onclick="artist100()">Top 100 artists</button>
-<button onclick="billboard200()">Billboard 200</button>
+<h1 class="display-3">Song Billboards</h1>
+<div>
+    <button onclick="top100()">Top 100 songs</button>
+    <button onclick="artist100()">Top 100 artists</button>
+    <button onclick="billboard200()">Billboard 200</button>
+</div>
 
 <div id="displaytext">Information will show up here.</div>
 
