@@ -27,16 +27,16 @@
     {% with messages = get_flashed_messages() %}
         {% if messages %}
             {% for msg in messages %}
-                <p id="message">{{msg}}</p>
+                <p id="message" class="lead">{{msg}}</p>
             {% endfor %}
         {% endif %}
     {% endwith %}
 <div id="loginbox">
     <form action="#" method="post">
-        <p>Username:</p>
+        <p class="lead">Username:</p>
         <p><input type="text" name="username" /></p>
-        <p>Password:</p>
-        <p><input type="text" name="password" /></p>
+        <p class="lead">Password:</p>
+        <p class="lead"><input type="text" name="password" /></p>
         <p><input type="submit" class="btn btn btn-dark" value="submit" /></p>
         <a class="btn btn btn-dark" href="/newuser" role="button">Create new account</a>
     </form>
