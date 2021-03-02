@@ -92,7 +92,7 @@ def fav():
 def musicgrid():
     if "user" in session:
         user = session["user"]
-        return render_template('musicgrid.html', user=user)
+        return render_template('piano.html', user=user)
     else:
         flash("Log in to access this function")
         return redirect(url_for("logintwo"))
