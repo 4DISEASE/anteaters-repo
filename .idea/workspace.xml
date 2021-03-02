@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="css">
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="more css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/newuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/newuser.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614306570506</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="more css">
+      <created>1614621429167</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1614621429167</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -275,7 +282,8 @@
     <MESSAGE value="I added the link ot the readme" />
     <MESSAGE value="Added the piano and made the mp3 files work" />
     <MESSAGE value="css" />
-    <option name="LAST_COMMIT_MESSAGE" value="css" />
+    <MESSAGE value="more css" />
+    <option name="LAST_COMMIT_MESSAGE" value="more css" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
