@@ -12,13 +12,16 @@
 </head>
 <body>
     <nav class = "navbar navbar-expand navbar-dark bg-dark">
-        <!-- homepage -->
-        <a href = "/" class = "navbar-brand">AE Music Maker</a>
-        <!-- other pages -->
         <ul class = "navbar.content navbar-nav mr-auto">
+            <!-- easter egg -->
+            <a href = "/references" class = "navbar-brand">AE Muisc Maker</a>
+            <!-- homepage -->
+            <a href = "/" class = "nav-link">Home</a>
+            <!-- other pages -->
+
             <!-- music grid -->
             <li class = "nav-item">
-                <a href = "/music-maker" class = "nav-link">Piano</a>
+                <a href = "/piano" class = "nav-link">Piano</a>
             </li>
             <!-- playlists -->
             <li class = "nav-item">
@@ -32,12 +35,9 @@
                 <a href = "/user" class = "nav-link">Login/Register</a>
             </li>
         </ul>
+        {% if insession == True %}
         <li class = "navbar.content navbar-nav">
             <a href = "/user" class = "nav-link">{{ user }}</a>
-        </li>
-        {% if insession == False %}
-        <li class = "navbar.content navbar-nav">
-            <a href = "/references" class = "nav-link"></a>
         </li>
         {% endif %}
     </nav>

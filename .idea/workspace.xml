@@ -19,9 +19,68 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="">
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="split up original view.py into __init__.py, routes.py, modules.py, run.py&#10;cleaned code from view.py and removed all dead code&#10;organized project into run.py and bulkofproject folder&#10;deleted unnecessary files&#10;added session data to /billboard&#10;fixed requirements.txt&#10;redid database so it will work with 'song' and 'artist' values for use in /favorites route&#10;fixed buggy username display on navbar">
+      <change afterPath="$PROJECT_DIR$/bulkofproject/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bulkofproject/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/piano.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/piano.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allusers.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboardAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/billboardAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/yanone.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/fonts/yanone.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/A#_Bb_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/A#_Bb_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/A#_Bb_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/A#_Bb_color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/A_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/A_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/A_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/A_color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/B_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/B_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/B_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/B_color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/C#_Db_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/C#_Db_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/C#_Db_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/C#_Db_color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/C_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/C_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/C_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/C_color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/D#_Eb_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/D#_Eb_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/D#_Eb_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/D#_Eb_color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/D_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/D_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/D_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/D_color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/E_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/E_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/E_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/E_color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/F#_Gb_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/F#_Gb_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/F#_Gb_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/F#_Gb_color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/F_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/F_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/F_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/F_color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/G#_Ab_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/G#_Ab_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/G#_Ab_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/G#_Ab_color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/G_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/G_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/G_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/G_color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/guitarbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/img/guitarbg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sounds/A#_Bb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/A#_Bb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sounds/A.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/A.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sounds/B.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/B.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sounds/C#_Db.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/C#_Db.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sounds/C.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/C.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sounds/D#_Eb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/D#_Eb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sounds/D.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/D.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sounds/E.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/E.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sounds/F#_Gb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/F#_Gb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sounds/F.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/F.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sounds/G#_Ab.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/G#_Ab.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sounds/G.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/G.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/billboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/billboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/fav.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/favorites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/newuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/piano.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/piano.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/references.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/references.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +90,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -50,11 +108,15 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1lQl5PCCF2zL7heQKxaeW4JnkHC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -66,14 +128,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bulkofproject" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\tclou\IdeaProjects\anteaters-repo\static\sounds" />
       <recent name="C:\Users\tclou\IdeaProjects\anteaters-repo\static\images" />
       <recent name="$PROJECT_DIR$/static/fonts" />
-      <recent name="$PROJECT_DIR$/static/img" />
-      <recent name="C:\Users\kirag\Documents\GitHub\anteaters-repo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.view">
+  <component name="RunManager" selected="Python.run">
     <configuration name="billboardAPI" type="PythonConfigurationType" factoryName="Python">
       <module name="anteaters-repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,7 +148,49 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/billboardAPI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bulkofproject/billboardAPI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="routes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="anteaters-repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bulkofproject/routes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="anteaters-repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,12 +206,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\tclou\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/view.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bulkofproject/view.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,10 +223,14 @@
     <list>
       <item itemvalue="Python.billboardAPI" />
       <item itemvalue="Python.view" />
+      <item itemvalue="Python.routes" />
+      <item itemvalue="Python.run" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run" />
         <item itemvalue="Python.view" />
+        <item itemvalue="Python.routes" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +367,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="View.py file added" />
     <MESSAGE value="templates directory added" />
     <MESSAGE value="import pythondb" />
@@ -275,37 +384,9 @@
     <MESSAGE value="I added the link ot the readme" />
     <MESSAGE value="Added the piano and made the mp3 files work" />
     <MESSAGE value="changed musicgrid.html to piano.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed musicgrid.html to piano.html" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614707329043">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614707329043" />
-    <state width="1877" height="267" key="GridCell.Tab.0.bottom" timestamp="1614794240554">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.bottom/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614794240554" />
-    <state width="1877" height="267" key="GridCell.Tab.0.center" timestamp="1614794240554">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.center/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614794240554" />
-    <state width="1877" height="267" key="GridCell.Tab.0.left" timestamp="1614794240554">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.left/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614794240554" />
-    <state width="1877" height="267" key="GridCell.Tab.0.right" timestamp="1614794240554">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.right/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614794240554" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1614707019798">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614707019798" />
-    <state x="616" y="250" key="run.anything.popup" timestamp="1614707690521">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="616" y="250" key="run.anything.popup/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614707690521" />
+    <MESSAGE value="split up original view.py into __init__.py, routes.py, modules.py, run.py&#10;cleaned code from view.py and removed all dead code&#10;added session data to /billboard&#10;fixed requirements.txt&#10;redid database so it will work with 'song' and 'artist' values for use in /favorites route&#10;fixed buggy username display on navbar&#10;organized project into run.py and bulkofproject folder" />
+    <MESSAGE value="split up original view.py into __init__.py, routes.py, modules.py, run.py&#10;cleaned code from view.py and removed all dead code&#10;organized project into run.py and bulkofproject folder&#10;deleted unnecessary files&#10;added session data to /billboard&#10;fixed requirements.txt&#10;redid database so it will work with 'song' and 'artist' values for use in /favorites route&#10;fixed buggy username display on navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="split up original view.py into __init__.py, routes.py, modules.py, run.py&#10;cleaned code from view.py and removed all dead code&#10;organized project into run.py and bulkofproject folder&#10;deleted unnecessary files&#10;added session data to /billboard&#10;fixed requirements.txt&#10;redid database so it will work with 'song' and 'artist' values for use in /favorites route&#10;fixed buggy username display on navbar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
