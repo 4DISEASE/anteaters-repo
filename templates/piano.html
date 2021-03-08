@@ -62,27 +62,157 @@ div {
 {% extends "base.html" %}
 {% block content%}
 <div>
-    <p >
-        <img  class = "dot" src="{{url_for('static', filename='images/C_blank.png')}}" width="125" height="175">
-        <img  class = "dot8" src="{{url_for('static', filename='images/C#_Db_blank.png')}}" width="55" height="175">
-        <img  class = "dot2" src="{{url_for('static', filename='images/D_blank.png')}}" width="125" height="175">
-        <img  class = "dot9" src="{{url_for('static', filename='images/D#_Eb_blank.png')}}" width="55" height="175">
-        <img  class = "dot3" src="{{url_for('static', filename='images/E_blank.png')}}" width="125" height="175">
-        <img  class = "dot4" src="{{url_for('static', filename='images/F_blank.png')}}" width="125" height="175">
-        <img  class = "dot10" src="{{url_for('static', filename='images/F#_Gb_blank.png')}}" width="55" height="175">
-        <img  class = "dot5" src="{{url_for('static', filename='images/G_blank.png')}}" width="125" height="175">
-        <img  class = "dot11" src="{{url_for('static', filename='images/G#_Ab_blank.png')}}" width="55" height="175">
-        <img  class = "dot6" src="{{url_for('static', filename='images/A_blank.png')}}" width="125" height="175">
-        <img  class = "dot12" src="{{url_for('static', filename='images/A#_Bb_blank.png')}}" width="55" height="175">
-        <img  class = "dot7" src="{{url_for('static', filename='images/B_blank.png')}}" width="125" height="175">
-
-
+    <p>
+        <img  class = "dot" id = "C_key" src="{{url_for('static', filename='images/C_blank.png')}}" width="125" height="175" onclick = "C_keyChange()" />
+        <img  class = "dot8" id = "C_Db_key" src="{{url_for('static', filename='images/C#_Db_blank.png')}}" width="55" height="175" onclick = "C_Db_keyChange()" />
+        <img  class = "dot2" id = "D_key" src="{{url_for('static', filename='images/D_blank.png')}}" width="125" height="175" onclick = "D_keyChange()" />
+        <img  class = "dot9" id = "D_Eb_key" src="{{url_for('static', filename='images/D#_Eb_blank.png')}}" width="55" height="175" onclick = "D_Eb_keyChange()" />
+        <img  class = "dot3" id = "E_key" src="{{url_for('static', filename='images/E_blank.png')}}" width="125" height="175" onclick = "E_keyChange()" />
+        <img  class = "dot4" id = "F_key" src="{{url_for('static', filename='images/F_blank.png')}}" width="125" height="175" onclick = "F_keyChange()" />
+        <img  class = "dot10" id = "F_Gb_key" src="{{url_for('static', filename='images/F#_Gb_blank.png')}}" width="55" height="175" onclick = "F_Gb_keyChange()" />
+        <img  class = "dot5" id = "G_key" src="{{url_for('static', filename='images/G_blank.png')}}" width="125" height="175" onclick = "G_keyChange()" />
+        <img  class = "dot11" id = "G_Ab_key" src="{{url_for('static', filename='images/G#_Ab_blank.png')}}" width="55" height="175" onclick = "G_Ab_keyChange()" />
+        <img  class = "dot6" id = "A_key" src="{{url_for('static', filename='images/A_blank.png')}}" width="125" height="175" onclick = "A_keyChange()" />
+        <img  class = "dot12" id = "A_Bb_key" src="{{url_for('static', filename='images/A#_Bb_blank.png')}}" width="55" height="175" onclick = "A_Bb_keyChange()" />
+        <img  class = "dot7" id = "B_key" src="{{url_for('static', filename='images/B_blank.png')}}" width="125" height="175" onclick = "B_keyChange()" />
     </p>
 </div>
-<script src = "https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
-<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
+<script>
+    function C_keyChange() {
+        var image = document.getElementById('C_key');
+        var i = setTimeout(C_Color, 2000);
+        image.src = "{{url_for('static', filename='images/C_color.png')}}";
+        function C_Color() {
+            if (image.src.match("{{url_for('static', filename='images/C_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/C_blank.png')}}";
+            }
+        }
+    }
+
+    function C_Db_keyChange() {
+        var image = document.getElementById('C_Db_key');
+        var i = setTimeout(C_Db_Color, 2000);
+        image.src = "{{url_for('static', filename='images/C#_Db_color.png')}}";
+        function C_Db_Color() {
+            if (image.src.match("{{url_for('static', filename='images/C#_Db_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/C#_Db_blank.png')}}";
+            }
+        }
+    }
+
+    function D_keyChange() {
+        var image = document.getElementById('D_key');
+        var i = setTimeout(D_Color, 2000);
+        image.src = "{{url_for('static', filename='images/D_color.png')}}";
+        function D_Color() {
+            if (image.src.match("{{url_for('static', filename='images/D_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/D_blank.png')}}";
+            }
+        }
+    }
+
+    function D_Eb_keyChange() {
+        var image = document.getElementById('D_Eb_key');
+        var i = setTimeout(D_Eb_Color, 2000);
+        image.src = "{{url_for('static', filename='images/D#_Eb_color.png')}}";
+        function D_Eb_Color() {
+            if (image.src.match("{{url_for('static', filename='images/D#_Eb_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/D#_Eb_blank.png')}}";
+            }
+        }
+    }
+
+    function E_keyChange() {
+        var image = document.getElementById('E_key');
+        var i = setTimeout(E_Color, 2000);
+        image.src = "{{url_for('static', filename='images/E_color.png')}}";
+        function E_Color() {
+            if (image.src.match("{{url_for('static', filename='images/E_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/E_blank.png')}}";
+            }
+        }
+    }
+
+    function F_keyChange() {
+        var image = document.getElementById('F_key');
+        var i = setTimeout(F_Color, 2000);
+        image.src = "{{url_for('static', filename='images/F_color.png')}}";
+        function F_Color() {
+            if (image.src.match("{{url_for('static', filename='images/F_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/F_blank.png')}}";
+            }
+        }
+    }
+
+    function F_Gb_keyChange() {
+        var image = document.getElementById('F_Gb_key');
+        var i = setTimeout(F_Gb_Color, 2000);
+        image.src = "{{url_for('static', filename='images/F#_Gb_color.png')}}";
+        function F_Gb_Color() {
+            if (image.src.match("{{url_for('static', filename='images/F#_Gb_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/F#_Gb_blank.png')}}";
+            }
+        }
+    }
+
+    function G_keyChange() {
+        var image = document.getElementById('G_key');
+        var i = setTimeout(G_Color, 2000);
+        image.src = "{{url_for('static', filename='images/G_color.png')}}";
+        function G_Color() {
+            if (image.src.match("{{url_for('static', filename='images/G_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/G_blank.png')}}";
+            }
+        }
+    }
+
+    function G_Ab_keyChange() {
+        var image = document.getElementById('G_Ab_key');
+        var i = setTimeout(G_Ab_Color, 2000);
+        image.src = "{{url_for('static', filename='images/G#_Ab_color.png')}}";
+        function G_Ab_Color() {
+            if (image.src.match("{{url_for('static', filename='images/G#_Ab_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/G#_Ab_blank.png')}}";
+            }
+        }
+    }
+
+    function A_keyChange() {
+        var image = document.getElementById('A_key');
+        var i = setTimeout(A_Color, 2000);
+        image.src = "{{url_for('static', filename='images/A_color.png')}}";
+        function A_Color() {
+            if (image.src.match("{{url_for('static', filename='images/A_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/A_blank.png')}}";
+            }
+        }
+    }
+
+    function A_Bb_keyChange() {
+        var image = document.getElementById('A_Bb_key');
+        var i = setTimeout(A_Bb_Color, 2000);
+        image.src = "{{url_for('static', filename='images/A#_Bb_color.png')}}";
+        function A_Bb_Color() {
+            if (image.src.match("{{url_for('static', filename='images/A#_Bb_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/A#_Bb_blank.png')}}";
+            }
+        }
+    }
+
+    function B_keyChange() {
+        var image = document.getElementById('B_key');
+        var i = setTimeout(B_Color, 2000);
+        image.src = "{{url_for('static', filename='images/B_color.png')}}";
+        function B_Color() {
+            if (image.src.match("{{url_for('static', filename='images/B_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/B_blank.png')}}";
+            }
+        }
+    }
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script id = "rendered-js>">
 $(document).ready(function(){
 

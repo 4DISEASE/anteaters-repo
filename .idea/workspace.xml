@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614707001755</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="piano doesn't look squished anymore">
+      <created>1614794536314</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1614794536314</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -275,13 +282,18 @@
     <MESSAGE value="I added the link ot the readme" />
     <MESSAGE value="Added the piano and made the mp3 files work" />
     <MESSAGE value="changed musicgrid.html to piano.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed musicgrid.html to piano.html" />
+    <MESSAGE value="piano doesn't look squished anymore" />
+    <option name="LAST_COMMIT_MESSAGE" value="piano doesn't look squished anymore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614707329043">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614707329043" />
+    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1614794535633">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="587" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614794535633" />
     <state width="1877" height="267" key="GridCell.Tab.0.bottom" timestamp="1614794240554">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -298,10 +310,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="267" key="GridCell.Tab.0.right/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614794240554" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1614707019798">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1614794541793">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614707019798" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614794541793" />
     <state x="616" y="250" key="run.anything.popup" timestamp="1614707690521">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
