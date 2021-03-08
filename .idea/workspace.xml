@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="split up original view.py into __init__.py, routes.py, modules.py, run.py&#10;cleaned code from view.py and removed all dead code&#10;organized project into run.py and bulkofproject folder&#10;deleted unnecessary files&#10;added session data to /billboard&#10;fixed requirements.txt&#10;redid database so it will work with 'song' and 'artist' values for use in /favorites route&#10;fixed buggy username display on navbar">
-      <change beforePath="$PROJECT_DIR$/allusers.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/billboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/billboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/home.html" afterDir="false" />
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="fixed run.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615206557107</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fixed run.py">
+      <created>1615223957790</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615223957790</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -336,7 +340,8 @@
     <MESSAGE value="changed musicgrid.html to piano.html" />
     <MESSAGE value="split up original view.py into __init__.py, routes.py, modules.py, run.py&#10;cleaned code from view.py and removed all dead code&#10;added session data to /billboard&#10;fixed requirements.txt&#10;redid database so it will work with 'song' and 'artist' values for use in /favorites route&#10;fixed buggy username display on navbar&#10;organized project into run.py and bulkofproject folder" />
     <MESSAGE value="split up original view.py into __init__.py, routes.py, modules.py, run.py&#10;cleaned code from view.py and removed all dead code&#10;organized project into run.py and bulkofproject folder&#10;deleted unnecessary files&#10;added session data to /billboard&#10;fixed requirements.txt&#10;redid database so it will work with 'song' and 'artist' values for use in /favorites route&#10;fixed buggy username display on navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="split up original view.py into __init__.py, routes.py, modules.py, run.py&#10;cleaned code from view.py and removed all dead code&#10;organized project into run.py and bulkofproject folder&#10;deleted unnecessary files&#10;added session data to /billboard&#10;fixed requirements.txt&#10;redid database so it will work with 'song' and 'artist' values for use in /favorites route&#10;fixed buggy username display on navbar" />
+    <MESSAGE value="fixed run.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed run.py" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
