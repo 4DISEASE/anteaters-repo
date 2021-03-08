@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+div {
+    text-align: center;
+  }
+
+.dot{
+  cursor:pointer;
+}
+.dot2{
+  cursor:pointer;
+  }
+
+.dot3{
+  cursor:pointer;
+  }
+
+.dot4{
+  cursor:pointer;
+  }
+
+.dot5{
+  cursor:pointer;
+  }
+
+.dot6{
+  cursor:pointer;
+  }
+
+.dot7{
+  cursor:pointer;
+  }
+
+.dot8{
+    cursor:pointer;
+    }
+
+.dot9{
+    cursor:pointer;
+    }
+
+.dot10{
+    cursor:pointer;
+    }
+
+.dot11{
+    cursor:pointer;
+    }
+
+.dot12{
+    cursor:pointer;
+    }
+    </style>
+
+</head>
+<body>
+{% extends "base.html" %}
+{% block content%}
+<div>
+    <p>
+        <img  class = "dot" id = "C_key" src="{{url_for('static', filename='images/C_blank.png')}}" width="125" height="175" onclick = "C_keyChange()" />
+        <img  class = "dot8" id = "C_Db_key" src="{{url_for('static', filename='images/C#_Db_blank.png')}}" width="55" height="175" onclick = "C_Db_keyChange()" />
+        <img  class = "dot2" id = "D_key" src="{{url_for('static', filename='images/D_blank.png')}}" width="125" height="175" onclick = "D_keyChange()" />
+        <img  class = "dot9" id = "D_Eb_key" src="{{url_for('static', filename='images/D#_Eb_blank.png')}}" width="55" height="175" onclick = "D_Eb_keyChange()" />
+        <img  class = "dot3" id = "E_key" src="{{url_for('static', filename='images/E_blank.png')}}" width="125" height="175" onclick = "E_keyChange()" />
+        <img  class = "dot4" id = "F_key" src="{{url_for('static', filename='images/F_blank.png')}}" width="125" height="175" onclick = "F_keyChange()" />
+        <img  class = "dot10" id = "F_Gb_key" src="{{url_for('static', filename='images/F#_Gb_blank.png')}}" width="55" height="175" onclick = "F_Gb_keyChange()" />
+        <img  class = "dot5" id = "G_key" src="{{url_for('static', filename='images/G_blank.png')}}" width="125" height="175" onclick = "G_keyChange()" />
+        <img  class = "dot11" id = "G_Ab_key" src="{{url_for('static', filename='images/G#_Ab_blank.png')}}" width="55" height="175" onclick = "G_Ab_keyChange()" />
+        <img  class = "dot6" id = "A_key" src="{{url_for('static', filename='images/A_blank.png')}}" width="125" height="175" onclick = "A_keyChange()" />
+        <img  class = "dot12" id = "A_Bb_key" src="{{url_for('static', filename='images/A#_Bb_blank.png')}}" width="55" height="175" onclick = "A_Bb_keyChange()" />
+        <img  class = "dot7" id = "B_key" src="{{url_for('static', filename='images/B_blank.png')}}" width="125" height="175" onclick = "B_keyChange()" />
+    </p>
+</div>
+
+<script>
+    function C_keyChange() {
+        var image = document.getElementById('C_key');
+        var i = setTimeout(C_Color, 2000);
+        image.src = "{{url_for('static', filename='images/C_color.png')}}";
+        function C_Color() {
+            if (image.src.match("{{url_for('static', filename='images/C_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/C_blank.png')}}";
+            }
+        }
+    }
+
+    function C_Db_keyChange() {
+        var image = document.getElementById('C_Db_key');
+        var i = setTimeout(C_Db_Color, 2000);
+        image.src = "{{url_for('static', filename='images/C#_Db_color.png')}}";
+        function C_Db_Color() {
+            if (image.src.match("{{url_for('static', filename='images/C#_Db_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/C#_Db_blank.png')}}";
+            }
+        }
+    }
+
+    function D_keyChange() {
+        var image = document.getElementById('D_key');
+        var i = setTimeout(D_Color, 2000);
+        image.src = "{{url_for('static', filename='images/D_color.png')}}";
+        function D_Color() {
+            if (image.src.match("{{url_for('static', filename='images/D_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/D_blank.png')}}";
+            }
+        }
+    }
+
+    function D_Eb_keyChange() {
+        var image = document.getElementById('D_Eb_key');
+        var i = setTimeout(D_Eb_Color, 2000);
+        image.src = "{{url_for('static', filename='images/D#_Eb_color.png')}}";
+        function D_Eb_Color() {
+            if (image.src.match("{{url_for('static', filename='images/D#_Eb_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/D#_Eb_blank.png')}}";
+            }
+        }
+    }
+
+    function E_keyChange() {
+        var image = document.getElementById('E_key');
+        var i = setTimeout(E_Color, 2000);
+        image.src = "{{url_for('static', filename='images/E_color.png')}}";
+        function E_Color() {
+            if (image.src.match("{{url_for('static', filename='images/E_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/E_blank.png')}}";
+            }
+        }
+    }
+
+    function F_keyChange() {
+        var image = document.getElementById('F_key');
+        var i = setTimeout(F_Color, 2000);
+        image.src = "{{url_for('static', filename='images/F_color.png')}}";
+        function F_Color() {
+            if (image.src.match("{{url_for('static', filename='images/F_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/F_blank.png')}}";
+            }
+        }
+    }
+
+    function F_Gb_keyChange() {
+        var image = document.getElementById('F_Gb_key');
+        var i = setTimeout(F_Gb_Color, 2000);
+        image.src = "{{url_for('static', filename='images/F#_Gb_color.png')}}";
+        function F_Gb_Color() {
+            if (image.src.match("{{url_for('static', filename='images/F#_Gb_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/F#_Gb_blank.png')}}";
+            }
+        }
+    }
+
+    function G_keyChange() {
+        var image = document.getElementById('G_key');
+        var i = setTimeout(G_Color, 2000);
+        image.src = "{{url_for('static', filename='images/G_color.png')}}";
+        function G_Color() {
+            if (image.src.match("{{url_for('static', filename='images/G_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/G_blank.png')}}";
+            }
+        }
+    }
+
+    function G_Ab_keyChange() {
+        var image = document.getElementById('G_Ab_key');
+        var i = setTimeout(G_Ab_Color, 2000);
+        image.src = "{{url_for('static', filename='images/G#_Ab_color.png')}}";
+        function G_Ab_Color() {
+            if (image.src.match("{{url_for('static', filename='images/G#_Ab_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/G#_Ab_blank.png')}}";
+            }
+        }
+    }
+
+    function A_keyChange() {
+        var image = document.getElementById('A_key');
+        var i = setTimeout(A_Color, 2000);
+        image.src = "{{url_for('static', filename='images/A_color.png')}}";
+        function A_Color() {
+            if (image.src.match("{{url_for('static', filename='images/A_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/A_blank.png')}}";
+            }
+        }
+    }
+
+    function A_Bb_keyChange() {
+        var image = document.getElementById('A_Bb_key');
+        var i = setTimeout(A_Bb_Color, 2000);
+        image.src = "{{url_for('static', filename='images/A#_Bb_color.png')}}";
+        function A_Bb_Color() {
+            if (image.src.match("{{url_for('static', filename='images/A#_Bb_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/A#_Bb_blank.png')}}";
+            }
+        }
+    }
+
+    function B_keyChange() {
+        var image = document.getElementById('B_key');
+        var i = setTimeout(B_Color, 2000);
+        image.src = "{{url_for('static', filename='images/B_color.png')}}";
+        function B_Color() {
+            if (image.src.match("{{url_for('static', filename='images/B_color.png')}}")) {
+                image.src = "{{url_for('static', filename='images/B_blank.png')}}";
+            }
+        }
+    }
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script id = "rendered-js>">
+$(document).ready(function(){
+
+    var audioA = document.createElement('audio');
+    audioA.setAttribute('src', '{{url_for('static', filename='sounds/A.mp3')}}');
+
+    var audioB = document.createElement('audio');
+    audioB.setAttribute('src', '{{url_for('static', filename='sounds/B.mp3')}}');
+
+    var audioC = document.createElement('audio');
+    audioC.setAttribute('src', '{{url_for('static', filename='sounds/C.mp3')}}');
+
+    var audioD = document.createElement('audio');
+    audioD.setAttribute('src', '{{url_for('static', filename='sounds/D.mp3')}}');
+
+    var audioE = document.createElement('audio');
+    audioE.setAttribute('src', '{{url_for('static', filename='sounds/E.mp3')}}');
+
+    var audioF = document.createElement('audio');
+    audioF.setAttribute('src', '{{url_for('static', filename='sounds/F.mp3')}}');
+
+    var audioG = document.createElement('audio');
+    audioG.setAttribute('src', '{{url_for('static', filename='sounds/G.mp3')}}');
+
+    var audioAB = document.createElement('audio');
+    audioAB.setAttribute('src', '{{url_for('static', filename='sounds/A#_Bb.mp3')}}');
+
+    var audioCD = document.createElement('audio');
+    audioCD.setAttribute('src', '{{url_for('static', filename='sounds/C#_Db.mp3')}}');
+
+    var audioDE = document.createElement('audio');
+    audioDE.setAttribute('src', '{{url_for('static', filename='sounds/D#_Eb.mp3')}}');
+
+    var audioFG = document.createElement('audio');
+    audioFG.setAttribute('src', '{{url_for('static', filename='sounds/F#_Gb.mp3')}}');
+
+    var audioGA = document.createElement('audio');
+    audioGA.setAttribute('src', '{{url_for('static', filename='sounds/G#_Ab.mp3')}}');
+
+
+    $('.dot').click(function(){
+        audioC.play();
+});
+
+  $('.dot2').click(function(){
+ audioD.play();
+  });
+
+  $('.dot3').click(function(){
+ audioE.play();
+  });
+
+  $('.dot4').click(function(){
+ audioF.play();
+  });
+
+  $('.dot5').click(function(){
+ audioG.play();
+  });
+
+  $('.dot6').click(function(){
+ audioA.play();
+  });
+
+  $('.dot7').click(function(){
+ audioB.play();
+  });
+
+  $('.dot8').click(function(){
+ audioCD.play();
+  });
+
+  $('.dot9').click(function(){
+ audioDE.play();
+  });
+
+  $('.dot10').click(function(){
+ audioFG.play();
+  });
+
+  $('.dot11').click(function(){
+ audioGA.play();
+  });
+
+  $('.dot12').click(function(){
+ audioAB.play();
+  });
+
+
+})
+    </script>
+{% endblock %}
+</body>
+</html>
