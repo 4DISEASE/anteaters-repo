@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/billboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/billboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/piano.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bulkofproject/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,9 +102,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\tclou\AppData\Local\Programs\Python\Python39\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
@@ -272,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614794536314</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="files fixed">
+      <created>1615224705599</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615224705599</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -308,37 +313,46 @@
     <MESSAGE value="Added the piano and made the mp3 files work" />
     <MESSAGE value="changed musicgrid.html to piano.html" />
     <MESSAGE value="piano doesn't look squished anymore" />
-    <option name="LAST_COMMIT_MESSAGE" value="piano doesn't look squished anymore" />
+    <MESSAGE value="files fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="files fixed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614707329043">
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615225398142">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614707329043" />
-    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1614794535633">
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615225398142" />
+    <state x="713" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615225158568">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="587" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614794535633" />
-    <state width="1877" height="267" key="GridCell.Tab.0.bottom" timestamp="1615224469835">
+    <state x="713" y="342" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615225158568" />
+    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1615224704617">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.bottom/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615224469835" />
-    <state width="1877" height="267" key="GridCell.Tab.0.center" timestamp="1615224469835">
+    <state x="587" y="108" key="CommitChangelistDialog2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615224704617" />
+    <state width="1877" height="267" key="GridCell.Tab.0.bottom" timestamp="1615225180916">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.center/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615224469835" />
-    <state width="1877" height="267" key="GridCell.Tab.0.left" timestamp="1615224469835">
+    <state width="1877" height="267" key="GridCell.Tab.0.bottom/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615225180916" />
+    <state width="1877" height="267" key="GridCell.Tab.0.center" timestamp="1615225180916">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.left/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615224469835" />
-    <state width="1877" height="267" key="GridCell.Tab.0.right" timestamp="1615224469835">
+    <state width="1877" height="267" key="GridCell.Tab.0.center/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615225180916" />
+    <state width="1877" height="267" key="GridCell.Tab.0.left" timestamp="1615225180916">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.right/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615224469835" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1614794541793">
+    <state width="1877" height="267" key="GridCell.Tab.0.left/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615225180916" />
+    <state width="1877" height="267" key="GridCell.Tab.0.right" timestamp="1615225180916">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1614794541793" />
+    <state width="1877" height="267" key="GridCell.Tab.0.right/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615225180916" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1615224717678">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615224717678" />
+    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615225048956">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.720/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615225048956" />
     <state x="616" y="250" key="run.anything.popup" timestamp="1614707690521">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
