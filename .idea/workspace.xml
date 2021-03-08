@@ -20,67 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="split up original view.py into __init__.py, routes.py, modules.py, run.py&#10;cleaned code from view.py and removed all dead code&#10;organized project into run.py and bulkofproject folder&#10;deleted unnecessary files&#10;added session data to /billboard&#10;fixed requirements.txt&#10;redid database so it will work with 'song' and 'artist' values for use in /favorites route&#10;fixed buggy username display on navbar">
-      <change afterPath="$PROJECT_DIR$/bulkofproject/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bulkofproject/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allusers.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/billboardAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/billboardAPI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/yanone.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/fonts/yanone.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/A#_Bb_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/A#_Bb_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/A#_Bb_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/A#_Bb_color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/A_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/A_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/A_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/A_color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/B_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/B_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/B_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/B_color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/C#_Db_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/C#_Db_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/C#_Db_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/C#_Db_color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/C_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/C_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/C_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/C_color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/D#_Eb_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/D#_Eb_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/D#_Eb_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/D#_Eb_color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/D_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/D_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/D_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/D_color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/E_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/E_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/E_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/E_color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/F#_Gb_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/F#_Gb_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/F#_Gb_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/F#_Gb_color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/F_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/F_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/F_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/F_color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/G#_Ab_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/G#_Ab_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/G#_Ab_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/G#_Ab_color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/G_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/G_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/G_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/images/G_color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/guitarbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/img/guitarbg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sounds/A#_Bb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/A#_Bb.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sounds/A.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/A.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sounds/B.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/B.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sounds/C#_Db.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/C#_Db.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sounds/C.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/C.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sounds/D#_Eb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/D#_Eb.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sounds/D.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/D.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sounds/E.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/E.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sounds/F#_Gb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/F#_Gb.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sounds/F.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/F.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sounds/G#_Ab.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/G#_Ab.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sounds/G.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/static/sounds/G.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/account.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/billboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/billboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fav.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/favorites.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/newuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/piano.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/piano.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/references.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/references.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614707001755</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="split up original view.py into __init__.py, routes.py, modules.py, run.py&#10;cleaned code from view.py and removed all dead code&#10;organized project into run.py and bulkofproject folder&#10;deleted unnecessary files&#10;added session data to /billboard&#10;fixed requirements.txt&#10;redid database so it will work with 'song' and 'artist' values for use in /favorites route&#10;fixed buggy username display on navbar">
+      <created>1615206557106</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1615206557107</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
