@@ -59,7 +59,7 @@ def login():
         if 'user' in session:
             flash("You are already logged in")
             return redirect(url_for('user'))
-        return render_template("login.html")
+        return render_template('login.html')
 
 ##logout
 @app.route('/logout')
