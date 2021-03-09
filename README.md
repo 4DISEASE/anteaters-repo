@@ -7,9 +7,17 @@ Welcome to the Anteaters Music Website! We aim to showcase many functions relate
  
  <b>How to Access</b><br />
  * Clicking this [link](http://104.63.252.143/) will take you to the front page of the website.
+     * Create an account using the login page first to access the other pages.
+     * Set your favorite artist and song in the user page by clicking the "User" button on the navbar (can be changed at any time)
+     * View other people's favorite artists and songs by clicking the "Favorites" button on the navbar
+     * Filter through the top billboards results by clicking the "Billboards" button on the navbar
+     * Compose your own music by clicking the "Piano" button on the navbar
  * Secret hidden [page](http://104.63.252.143/references)... try to find where it is
+
+# College Board Considerations
+[Details about meeting college board requirements.](https://docs.google.com/document/d/1BHGhnfDmpjqr5_fmVO78Xak6Nz437NrzB6z_cBR10qA/edit?usp=sharing)
  
- 
+
 # Update 2/18
 <b>Suggestions from other team review</b><br />
 We recieved these suggestions from the Breakertorts and made sure to work on them.
