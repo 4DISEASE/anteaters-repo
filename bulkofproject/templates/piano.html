@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <!-- Creating classes -->
     <style>
 div {
     text-align: center;
@@ -58,9 +59,11 @@ div {
 
 </head>
 <body>
+<!-- inputting navbar -->
 {% extends "base.html" %}
 {% block content%}
 <div>
+    <!-- inputting piano -->
     <p>
         <img  class = "dot" id = "C_key" src="{{url_for('static', filename='images/C_blank.png')}}" width="125" height="175" onclick = "C_keyChange()" />
         <img  class = "dot8" id = "C_Db_key" src="{{url_for('static', filename='images/C#_Db_blank.png')}}" width="55" height="175" onclick = "C_Db_keyChange()" />
@@ -77,6 +80,7 @@ div {
     </p>
 </div>
 
+<!-- functions to make keys change color -->
 <script>
     function C_keyChange() {
         var image = document.getElementById('C_key');
@@ -211,6 +215,7 @@ div {
     }
 </script>
 
+<!-- functions to make keys play sounds -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script id = "rendered-js>">
 $(document).ready(function(){
