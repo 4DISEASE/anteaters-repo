@@ -1,16 +1,14 @@
 # Anteaters Music Website
-Welcome to the Anteaters Music Website! We aim to work towards:
+Welcome to the Anteaters Music Website! We aim to showcase many functions related to music:
 * A login function to access the site
-* A music grid that saves work-in-progress music in a database
+* An in-website clickable piano
 * An API to access billboard charts and cleanly display information
 * A playlists tab to create playlists of songs
  
  <b>How to Access</b><br />
- * Clicking this link will take you to the front page of the website.
- * Secret hidden page... try to find where it is
+ * Clicking this [link](http://104.63.252.143/) will take you to the front page of the website.
+ * Secret hidden [page](http://104.63.252.143/references)... try to find where it is
  
-<b>Link to Running Webserver</b><br />
- http://104.63.252.143/
  
 # Update 2/18
 <b>Suggestions from other team review</b><br />
@@ -53,22 +51,14 @@ We recieved these suggestions from the Breakertorts and made sure to work on the
  * Connects to collegeboard topic of a collection of data that is stored
  * [Link to ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-53523712)
  
- <b>Logins Progress</b><br />
- * 
  
 # Project Plan
 **College Board “Big Ideas”**
 
 Idea 1 <span style="text-decoration:underline;">(Summary)</span>
-
-
-
 *   The idea of our website is based around a music maker through the use of buttons dedicated to musical notes. The user is prompted to sign into an account which allows them to save their music through databases. The user is then able to click buttons that correspond to musical notes, and are able to customize the instrument. 
 
 Idea 2: 
-
-
-
 *   SQLAlchemy database will be used for user logins, and creation of playlists/playback of created music
 *   Flask will be used to create back end of website, using routes to link to front end html pages
 *   POST/GET methods used for user input
@@ -78,31 +68,19 @@ Idea 2:
     *   Users will be able to save multiple songs, and filter through them using a search system for ease of use
 
 Idea 3:
-
-
-
 *   We will create a base website with a temporary design to start with
     *   Website will be changed based on research done
     *   At first, website will be skeleton with a working routing system, and blank spaces to be filled with soundboard and music player/playlist
 
 Idea 4:
-
-
-
 *   We will use the last two weeks of the project to portforward with a Raspberry Pi server, and implement HTTP into our project
 
 Idea 5: 
-
-
-
 *   We plan to use music/sounds from online sources
     *   Links and proper credit will be used in credit page
 *   Night at the museum will be a time for us to showcase our project
 
 **Delivery Plans and Content for big Milestones**
-
-
-
 *   Friday 12/11: Finish Project Scope
 *   Friday 12/18: Set up basic layout of website, play sounds on website if possible
 *   -Break-
@@ -133,10 +111,8 @@ Idea 5:
 *   Updating database of logins/music
 
 **Big Ticket features with Visuals **
-
 *   Search Bar
 *   Log-in
 *   Interactive Grid
     *   Replayable Music From Grid (saved by logging in)
-
 
