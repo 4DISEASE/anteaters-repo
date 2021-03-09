@@ -27,9 +27,17 @@
                 <a href = "/billboard" class = "nav-link">Billboard</a>
             </li>
             <!-- login -->
+            {% if insession == False %}
             <li class = "nav-item">
                 <a href = "/user" class = "nav-link">Login/Register</a>
             </li>
+            {% endif %}
+
+            {% if insession == True %}
+            <li class = "nav-item">
+                <a href = "/user" class = "nav-link">User</a>
+            </li>
+            {% endif %}
         </ul>
         {% if insession == True %}
         <li class = "navbar.content navbar-nav">

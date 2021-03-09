@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="fixed &quot;&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bulkofproject/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bulkofproject/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/filter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bulkofproject/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bulkofproject/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/user.html" afterDir="false" />
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="Added update favorites routes to /user route">
+      <change beforePath="$PROJECT_DIR$/bulkofproject/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615311676388</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added update favorites routes to /user route">
+      <created>1615316561797</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615316561797</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -399,7 +402,8 @@
     <MESSAGE value="added favorite songs table and filter function" />
     <MESSAGE value="moved readme back to main project folder" />
     <MESSAGE value="fixed &quot;&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed &quot;&quot;" />
+    <MESSAGE value="Added update favorites routes to /user route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added update favorites routes to /user route" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
