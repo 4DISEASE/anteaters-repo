@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="">
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="fixed &quot;&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bulkofproject/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bulkofproject/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/filter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bulkofproject/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bulkofproject/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -58,6 +60,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -69,11 +72,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\tclou\IdeaProjects\anteaters-repo\bulkofproject\templates" />
       <recent name="C:\Users\tclou\IdeaProjects\anteaters-repo\static\sounds" />
       <recent name="C:\Users\tclou\IdeaProjects\anteaters-repo\static\images" />
       <recent name="$PROJECT_DIR$/static/fonts" />
-      <recent name="$PROJECT_DIR$/static/img" />
     </key>
   </component>
   <component name="RunManager" selected="Python.run">
@@ -90,6 +93,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/billboardAPI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="filter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="anteaters-repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bulkofproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bulkofproject/filter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="routes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="anteaters-repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bulkofproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bulkofproject/routes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,10 +189,14 @@
       <item itemvalue="Python.billboardAPI" />
       <item itemvalue="Python.view" />
       <item itemvalue="Python.run" />
+      <item itemvalue="Python.routes" />
+      <item itemvalue="Python.filter" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
+        <item itemvalue="Python.filter" />
+        <item itemvalue="Python.routes" />
         <item itemvalue="Python.view" />
       </list>
     </recent_temporary>
@@ -287,21 +336,28 @@
       <option name="project" value="LOCAL" />
       <updated>1615225583262</updated>
     </task>
-    <task id="LOCAL-00019" summary="piano blah">
-      <created>1615225728486</created>
+    <task id="LOCAL-00019" summary="added favorite songs table and filter function">
+      <created>1615288982439</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1615225728486</updated>
+      <updated>1615288982439</updated>
     </task>
-    <task id="LOCAL-00020" summary="Music Maker fixed">
-      <created>1615310221287</created>
+    <task id="LOCAL-00020" summary="moved readme back to main project folder">
+      <created>1615310339146</created>
       <option name="number" value="00020" />
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1615310221288</updated>
+      <updated>1615310339146</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fixed &quot;&quot;">
+      <created>1615311676388</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1615311676388</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -320,6 +376,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="View.py file added" />
     <MESSAGE value="templates directory added" />
     <MESSAGE value="import pythondb" />
@@ -339,9 +396,10 @@
     <MESSAGE value="piano doesn't look squished anymore" />
     <MESSAGE value="files fixed" />
     <MESSAGE value="databased fixed" />
-    <MESSAGE value="piano blah" />
-    <MESSAGE value="Music Maker fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Music Maker fixed" />
+    <MESSAGE value="added favorite songs table and filter function" />
+    <MESSAGE value="moved readme back to main project folder" />
+    <MESSAGE value="fixed &quot;&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed &quot;&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

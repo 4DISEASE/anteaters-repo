@@ -75,11 +75,32 @@ def logout():
 @app.route('/user', methods = ["GET", "POST"])
 def user():
     if 'user' in session:
+        if request.method == "POST":
+            #user variable for navbar and update
+            user = session['user']
 
+            #get data from front end
+            newsong = request.form.get('song')
+            newartist = request.form.get('artist')
 
-        #user variable for navbar
-        user = session['user']
-        return render_template('user.html', user = user, insession = True)
+            #get logged in user id
+            #update user variable
+            update = maindb.query.filter_by(username = user).first()
+
+            #update user
+            if (newsong == "") == False:
+                update.song = newsong
+            if (newartist == "") == False:
+                update.artist = newartist
+            #commit to database
+            db.session.commit()
+
+            #render template
+            return render_template('user.html', user = user, insession = True)
+        else:
+            #user variable for navbar
+            user = session['user']
+            return render_template('user.html', user = user, insession = True)
     else:
         flash("You are not logged in")
         return redirect(url_for('login'))
