@@ -9,45 +9,64 @@
         {% endif %}
     {% endwith %}
 <style>
+    body {
+        background-image: url({{url_for('static', filename='img/userbg.jpg')}});
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .userbg{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        text-align: center;
+        width: 35%;
+        background-color: white;
+        padding-bottom: 1%;
+    }
+
     #welcome {
-    text-align: center;
+        text-align: center;
     }
 
     a {
-    text-align: center;
+        text-align: center;
     }
 
     #page {
-    text-align: center;
+        text-align: center;
     }
 
     .ff {
-    width: 25%;
-    margin: auto;
+        width: 45%;
+        margin: auto;
     }
 </style>
-<div id="page">
-    <div id="welcome">
-        <h1 class="display-3">Welcome User!</h1>
-        <h5 class="display-5 text-muted">Press buttons below to access our services!</h5>
+<div class="userbg">
+    <div id="page">
+        <div id="welcome">
+            <h1 class="display-3">Welcome User!</h1>
+            <h5 class="display-5 text-muted">Press buttons below to access our services!</h5>
+        </div>
+        <div class="form-group">
+            <a class="btn btn btn-dark" href="/piano" role="button">Access Piano</a>
+            <a class="btn btn btn-dark" href="/logout" role="button">Logout</a>
+        </div>
     </div>
-    <div class="form-group">
-        <a class="btn btn btn-dark" href="/piano" role="button">Access Piano</a>
-        <a class="btn btn btn-dark" href="/logout" role="button">Logout</a>
-    </div>
-</div>
 
-<form action="#" method="post" class="ff">
-    <div class ="form-group text-center">
-        <label for="filter">Favorite Song</label>
-        <input type="text" name="song" id="song" class="form-control">
-    </div>
-    <div class ="form-group text-center">
-        <label for="filter">Favorite Artist</label>
-        <input type="text" name="artist" id="artist" class="form-control">
-    </div>
-    <div class ="form-group text-center">
-        <button type="submit" class="btn btn-outline-success">Submit</button>
-    </div>
-</form>
+    <form action="#" method="post" class="ff">
+        <div class ="form-group text-center">
+            <label for="filter">Favorite Song</label>
+            <input type="text" name="song" id="song" class="form-control">
+        </div>
+        <div class ="form-group text-center">
+            <label for="filter">Favorite Artist</label>
+            <input type="text" name="artist" id="artist" class="form-control">
+        </div>
+        <div class ="form-group text-center">
+            <button type="submit" class="btn btn-outline-success">Submit</button>
+        </div>
+    </form>
+</div>
 {% endblock %}

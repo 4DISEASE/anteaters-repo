@@ -19,8 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="Added update favorites routes to /user route">
-      <change beforePath="$PROJECT_DIR$/bulkofproject/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/base.html" afterDir="false" />
+    <list default="true" id="818ab872-099d-4d60-8ef6-af3be721e1a6" name="Default Changelist" comment="Updated navbar">
+      <change afterPath="$PROJECT_DIR$/bulkofproject/static/img/billboardbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bulkofproject/static/img/userbg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bulkofproject/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bulkofproject/templates/billboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/billboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bulkofproject/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bulkofproject/templates/references.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/references.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bulkofproject/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bulkofproject/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/bulkofproject/templates/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +76,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bulkofproject/static/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\tclou\IdeaProjects\anteaters-repo\bulkofproject\templates" />
       <recent name="C:\Users\tclou\IdeaProjects\anteaters-repo\static\sounds" />
       <recent name="C:\Users\tclou\IdeaProjects\anteaters-repo\static\images" />
-      <recent name="$PROJECT_DIR$/static/fonts" />
     </key>
   </component>
   <component name="RunManager" selected="Python.run">
@@ -360,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615316561797</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Updated navbar">
+      <created>1615316779843</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1615316779843</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -403,7 +418,8 @@
     <MESSAGE value="moved readme back to main project folder" />
     <MESSAGE value="fixed &quot;&quot;" />
     <MESSAGE value="Added update favorites routes to /user route" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added update favorites routes to /user route" />
+    <MESSAGE value="Updated navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated navbar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

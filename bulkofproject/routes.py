@@ -27,7 +27,7 @@ def register():
         return redirect(url_for('login'))
     #render template
     flash("Create a new account")
-    return render_template('register.html')
+    return render_template('register.html', insession = False)
 
 ##login
 @app.route('/login', methods = ['POST', 'GET'])
@@ -61,7 +61,7 @@ def login():
         if 'user' in session:
             flash("You are already logged in")
             return redirect(url_for('user'))
-        return render_template('login.html')
+        return render_template('login.html', insession = False)
 
 ##logout
 @app.route('/logout')
@@ -169,7 +169,7 @@ def billboard():
         user = session['user']
         return render_template('billboard.html', user = user, insession = True, data = billboardAPI.billboarddata())
     else:
-        return render_template('billboard.html', data = billboardAPI.billboarddata())
+        return render_template('billboard.html', data = billboardAPI.billboarddata(), insession = False)
 ##easter egg
 @app.route('/references')
 def references():
