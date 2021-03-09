@@ -3,14 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Favorites</title>
+    <!-- initialize bootstrap -->
+    <link rel="stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity = "sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin = "anonymous">
+    <style>
+        .ff {
+        width: 30%;
+        margin: auto;
+        }
+    </style>
 </head>
 <body>
 {% extends "base.html" %}
 
 {% block content %}
-    {% for item in values %}
-    <p></p>
+<table class="table table-striped">
+    <!-- header -->
+    <tr>
+        <th>#</th>
+        <th>Username</th>
+        <th>Favorite Song</th>
+        <th>Favorite Artist</th>
+    </tr>
+
+    <!-- body -->
+    {% for entry in output %}
+    <tr>
+        <th>{{ (output.index(entry) + 1) }}</th>
+        <th>{{ entry['user'] }}</th>
+        <th>{{ entry['song'] }}</th>
+        <th>{{ entry['artist'] }}</th>
+    </tr>
     {% endfor %}
+</table>
+
+<form action="#" method = "post" class="ff">
+    <div class="form-group">
+        <label for="filter">Filter</label>
+        <input type="text" name="filter" id="filter" class="form-control">
+    </div>
+    <div class="form-group">
+        <select name="category" id="category" class="form-control">
+            <option value="song">Song</option>
+            <option value="artist">Artist</option>
+        </select>
+    </div>
+    <div class="text-center">
+        <button type="submit" class="btn btn-outline-success">Submit</button>
+        <a href="/favorites">
+            <button type="button" class="btn btn-outline-success">Reset Filters</button>
+        </a>
+    </div>
+</form>
 {% endblock %}
 </body>
 </html>

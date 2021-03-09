@@ -4,7 +4,11 @@ from flask import flash, redirect, render_template, request, session, url_for
 from bulkofproject import app, db
 ##import api
 import bulkofproject.billboardAPI as billboardAPI
-from bulkofproject.models import database
+#import models
+from bulkofproject.models import maindb
+#import filter
+from bulkofproject.filter import query as dbquery
+from bulkofproject.filter import filter as dbfilter
 
 #app routes
 ##create user
@@ -15,7 +19,7 @@ def register():
         usr = request.form.get('username')
         pw = request.form.get('password')
         #commit username and password to database
-        dbcommit = database(username = usr, password = pw, song = "none", artist = "artist")
+        dbcommit = maindb(username = usr, password = pw, song = "none", artist = "none")
         db.session.add(dbcommit)
         db.session.commit()
         flash("New account successfully created")
@@ -30,7 +34,7 @@ def register():
 def login():
     if request.method == 'POST':
         #query database and set up session
-        users = database.query.all()
+        users = maindb.query.all()
         session.pop('user_id', None)
         session.permanent = True
 
@@ -69,6 +73,9 @@ def logout():
 @app.route('/user', methods = ["GET", "POST"])
 def user():
     if 'user' in session:
+
+
+        #user variable for navbar
         user = session['user']
         return render_template('user.html', user = user, insession = True)
     else:
@@ -95,13 +102,42 @@ def piano():
         return redirect(url_for('login'))
 
 ##favorite song/artist
-@app.route('/favorites')
+@app.route('/favorites', methods = ["GET", "POST"])
 def favorites():
     if 'user' in session:
-        user = session['user']
-        return render_template('favorites.html', user = user, insession = True)
+        #filter route
+        if request.method == "POST":
+            #query database
+            key = 'key'
+            dbdict = dbquery(key)
+
+            #get front end input
+            category = str(request.form['category'])
+            filter = str(request.form['filter'])
+
+            #filter
+            filtered = dbfilter(dbdict, key, category, filter)
+
+            output = filtered[key]
+
+            #navbar and render
+            user = session['user']
+            return render_template('favorites.html',user = user, insession = True, output = output)
+
+        else:
+            #query database
+            key = 'entry'
+            dbdict = dbquery(key)
+
+            #output
+            output = dbdict[key]
+
+            #navbar and render
+            user = session['user']
+            return render_template('favorites.html', user = user, insession = True, output = output)
     else:
-        return render_template('favorites.html', insession = False)
+        flash("Log in to access this function")
+        return redirect(url_for('login'))
 
 ##billboard
 @app.route('/billboard')
