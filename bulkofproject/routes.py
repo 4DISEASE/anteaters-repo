@@ -52,10 +52,10 @@ def login():
                 return redirect(url_for('user'))
             #incorrect username/password
             else:
-                flash("Password is incorrect or user does not exist.")
+                flash("User is incorrect or does not exist.")
                 return redirect(url_for('login'))
         except:
-            flash("User is incorrect or does not exist.")
+            flash("Password or Username is incorrect or does not exist.")
             return redirect(url_for('login'))
     else:
         if 'user' in session:
