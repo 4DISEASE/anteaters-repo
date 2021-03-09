@@ -2,12 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>AE Piano</title>
     <!-- Creating classes -->
     <style>
-div {
+body {
+    background-image: url({{url_for('static', filename='img/GreyBackground.jpg') }});
+            background-size: 100%;
+            background-repeat: no-repeat;
+    }
+
+.piano {
+    margin-top: 7%;
     text-align: center;
-  }
+    }
 
 .dot{
   cursor:pointer;
@@ -62,21 +69,21 @@ div {
 <!-- inputting navbar -->
 {% extends "base.html" %}
 {% block content%}
-<div>
+<div class="piano">
     <!-- inputting piano -->
     <p>
-        <img  class = "dot" id = "C_key" src="{{url_for('static', filename='images/C_blank.png')}}" width="125" height="175" onclick = "C_keyChange()" />
-        <img  class = "dot8" id = "C_Db_key" src="{{url_for('static', filename='images/C#_Db_blank.png')}}" width="55" height="175" onclick = "C_Db_keyChange()" />
-        <img  class = "dot2" id = "D_key" src="{{url_for('static', filename='images/D_blank.png')}}" width="125" height="175" onclick = "D_keyChange()" />
-        <img  class = "dot9" id = "D_Eb_key" src="{{url_for('static', filename='images/D#_Eb_blank.png')}}" width="55" height="175" onclick = "D_Eb_keyChange()" />
-        <img  class = "dot3" id = "E_key" src="{{url_for('static', filename='images/E_blank.png')}}" width="125" height="175" onclick = "E_keyChange()" />
-        <img  class = "dot4" id = "F_key" src="{{url_for('static', filename='images/F_blank.png')}}" width="125" height="175" onclick = "F_keyChange()" />
-        <img  class = "dot10" id = "F_Gb_key" src="{{url_for('static', filename='images/F#_Gb_blank.png')}}" width="55" height="175" onclick = "F_Gb_keyChange()" />
-        <img  class = "dot5" id = "G_key" src="{{url_for('static', filename='images/G_blank.png')}}" width="125" height="175" onclick = "G_keyChange()" />
-        <img  class = "dot11" id = "G_Ab_key" src="{{url_for('static', filename='images/G#_Ab_blank.png')}}" width="55" height="175" onclick = "G_Ab_keyChange()" />
-        <img  class = "dot6" id = "A_key" src="{{url_for('static', filename='images/A_blank.png')}}" width="125" height="175" onclick = "A_keyChange()" />
-        <img  class = "dot12" id = "A_Bb_key" src="{{url_for('static', filename='images/A#_Bb_blank.png')}}" width="55" height="175" onclick = "A_Bb_keyChange()" />
-        <img  class = "dot7" id = "B_key" src="{{url_for('static', filename='images/B_blank.png')}}" width="125" height="175" onclick = "B_keyChange()" />
+        <img  class = "dot" id = "C_key" src="{{url_for('static', filename='images/C_blank.png')}}" width="150" height="300" onclick = "C_keyChange()" />
+        <img  class = "dot8" id = "C_Db_key" src="{{url_for('static', filename='images/C#_Db_blank.png')}}" width="55" height="300" onclick = "C_Db_keyChange()" />
+        <img  class = "dot2" id = "D_key" src="{{url_for('static', filename='images/D_blank.png')}}" width="150" height="300" onclick = "D_keyChange()" />
+        <img  class = "dot9" id = "D_Eb_key" src="{{url_for('static', filename='images/D#_Eb_blank.png')}}" width="55" height="300" onclick = "D_Eb_keyChange()" />
+        <img  class = "dot3" id = "E_key" src="{{url_for('static', filename='images/E_blank.png')}}" width="150" height="300" onclick = "E_keyChange()" />
+        <img  class = "dot4" id = "F_key" src="{{url_for('static', filename='images/F_blank.png')}}" width="150" height="300" onclick = "F_keyChange()" />
+        <img  class = "dot10" id = "F_Gb_key" src="{{url_for('static', filename='images/F#_Gb_blank.png')}}" width="55" height="300" onclick = "F_Gb_keyChange()" />
+        <img  class = "dot5" id = "G_key" src="{{url_for('static', filename='images/G_blank.png')}}" width="150" height="300" onclick = "G_keyChange()" />
+        <img  class = "dot11" id = "G_Ab_key" src="{{url_for('static', filename='images/G#_Ab_blank.png')}}" width="55" height="300" onclick = "G_Ab_keyChange()" />
+        <img  class = "dot6" id = "A_key" src="{{url_for('static', filename='images/A_blank.png')}}" width="150" height="300" onclick = "A_keyChange()" />
+        <img  class = "dot12" id = "A_Bb_key" src="{{url_for('static', filename='images/A#_Bb_blank.png')}}" width="55" height="300" onclick = "A_Bb_keyChange()" />
+        <img  class = "dot7" id = "B_key" src="{{url_for('static', filename='images/B_blank.png')}}" width="150" height="300" onclick = "B_keyChange()" />
     </p>
 </div>
 

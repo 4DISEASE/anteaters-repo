@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
     <style>
         .title {
-            background-image: url({{ url_for('static', filename='img/guitarbg.jpg') }});
+            background-image: url({{ url_for('static', filename='img/pianobg.jpg') }});
             background-size: 100%;
             background-repeat: no-repeat;
             padding-top: 15%;
@@ -24,11 +24,14 @@
         .top {
             background-color: #333333;
             text-align: center;
+            color: #B3ABA9;
         }
 
         .filler {
             background-color: #575757;
             height: 250px;
+            text-align: center;
+            color: black;
         }
     </style>
 </head>
@@ -44,9 +47,10 @@
 
 
 <div class="top">
-    <p>Website Links</p>
+    <p>Welcome to the Anteaters Music Maker! </p>
+    <p>Explore the website and see other people's favorite songs, the current top songs, and compose your own music.</p>
     <div class="filler">
-        <p> Links: test</p>
+        <p>Created by: Kaila Manangan, Tyler Cloutier, Dylan Roman, and Kira Liao</p>
     </div>
 </div>
 {% endblock %}
