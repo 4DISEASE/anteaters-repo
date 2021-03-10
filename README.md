@@ -17,6 +17,24 @@ Welcome to the Anteaters Music Website! We aim to showcase many functions relate
 # College Board Considerations
 [Details about meeting college board requirements.](https://docs.google.com/document/d/1BHGhnfDmpjqr5_fmVO78Xak6Nz437NrzB6z_cBR10qA/edit?usp=sharing)
  
+# Update 3/9
+<b>Ticket Updates </b><br />
+Adding an Actual Piano
+* Piano changes colors upon key pressed
+
+List Function
+* Added favorite songs route to navbar
+* Created query and filter functions
+* Added GET/POST to /favorites route
+* Created table for queried database
+* Created seperate routes for filtering and base table
+* Styled List
+
+<b>Non-Ticket Related Items </b><br />
+* Organized project (split up view.py)
+* Used css to style every page
+    * Updated home.html styling to include piano instead of guitar
+
 
 # Update 2/18
 <b>Suggestions from other team review</b><br />
