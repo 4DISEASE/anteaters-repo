@@ -20,7 +20,7 @@ Welcome to the Anteaters Music Website! We aim to showcase many functions relate
 # Update 3/9
 <b>Ticket Updates </b><br />
 Adding an Actual Piano
-* Piano changes colors upon key pressed
+* Piano changes colors upon key pressed [ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-56562032)
 
 List Function
 * Added favorite songs route to navbar
@@ -34,6 +34,8 @@ List Function
 * Organized project (split up view.py)
 * Used css to style every page
     * Updated home.html styling to include piano instead of guitar
+* Fixed errors with login
+    * If used incorrect username or password, resulted in an error, now states that username and password is incorrect
 
 
 # Update 2/18
@@ -55,7 +57,7 @@ We recieved these suggestions from the Breakertorts and made sure to work on the
 * Music grid has been updated to a keyboard [ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-54738436)
 * Working on implimenting a dropdown that brings up images of sheet music to play
 * Favorite music function in progress - querys users and adds them to dictionary [ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-55044917)
-* Working on updating looks of websit e[ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-55257236)
+* Working on updating looks of website [ticket](https://github.com/4DISEASE/anteaters-repo/projects/1#card-55257236)
 
  
 # Update 2/5
